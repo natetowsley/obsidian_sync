@@ -4,6 +4,8 @@ Year/Semester:
   - Fall
 tags:
   - School
+📕 Courses:
+  - "[[Programming Concepts and Methodology I (C++)]]"
 ---
 #### Notes
 | ![](https://www.notion.so/icons/clipping_gray.svg)Name                                                                             | Date Created                | Favorite | Tags                         | 📕 Courses                                       |
