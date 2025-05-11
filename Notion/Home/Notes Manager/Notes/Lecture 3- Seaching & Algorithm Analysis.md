@@ -19,9 +19,9 @@ tags:
     - [[#Number of Comparisons for a List of Length n]]
 ---
 # Recursion Review
-[[Lecture 11 - Recursion]]
+[[Recursion]]
 # Search & Sort Review
-[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 8 - Search and Sort Algorithms|Lecture 8 - Search and Sort Algorithms]]
+[[Search and Sort Algorithms|Search and Sort Algorithms]]
 # Big O Notation
 - After an algorithm is designed, it should be analyzed
 - May be various ways to design a particular algorithm

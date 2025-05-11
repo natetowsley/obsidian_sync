@@ -51,15 +51,15 @@
 |[[Lecture 1- Exceptions and Templates]]|January 20, 2025 9:43 AM||[[Programming Concepts and Methodology II (C++)]]|
 |[[Unit 1- Computer Organization and Design]]|January 13, 2025 1:08 PM||[[Computer Architecture and Organization]]|
 |[[Week 1- Logic]]|January 13, 2025 9:29 AM||[[Discrete Mathematics for Computer Science]]|
-|[[Lecture 11 - Recursion]]|November 26, 2024 1:18 PM|Basics|[[Programming Concepts and Methodology I (C++)]]|
-|[[Lecture 10 - Intro to Classes-OOP]]|November 13, 2024 12:55 PM|Basics|[[Programming Concepts and Methodology I (C++)]]|
-|[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 9 - Pointers\|Lecture 9 - Pointers]]|November 4, 2024 1:09 PM|Basics|[[Programming Concepts and Methodology I (C++)]]|
-|[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 8 - Search and Sort Algorithms\|Lecture 8 - Search and Sort Algorithms]]|October 16, 2024 12:56 PM|Data Structures & Algorithms|[[Programming Concepts and Methodology I (C++)]]|
-|[[Lecture 7 - Arrays and Vectors]]|October 7, 2024 1:00 PM|Basics|[[Programming Concepts and Methodology I (C++)]]|
-|[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 6 - Functions\|Lecture 6 - Functions]]|September 25, 2024 12:57 PM|Basics|[[Programming Concepts and Methodology I (C++)]]|
-|[[Lecture 5 - Loops and Files]]|September 18, 2024 12:57 PM|Basics|[[Programming Concepts and Methodology I (C++)]]|
-|[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 4 - Conditional Branches\|Lecture 4 - Conditional Branches]]|September 9, 2024 10:32 AM|Basics|[[Programming Concepts and Methodology I (C++)]]|
+|[[Recursion]]|November 26, 2024 1:18 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Intro to Classes-OOP]]|November 13, 2024 12:55 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Pointers\|Lecture 9 - Pointers]]|November 4, 2024 1:09 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Search and Sort Algorithms\|Lecture 8 - Search and Sort Algorithms]]|October 16, 2024 12:56 PM|Data Structures & Algorithms|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Arrays and Vectors]]|October 7, 2024 1:00 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Functions\|Lecture 6 - Functions]]|September 25, 2024 12:57 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Loops and Files]]|September 18, 2024 12:57 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Conditional Branches\|Lecture 4 - Conditional Branches]]|September 9, 2024 10:32 AM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
 |[[Coding in Python]]|September 5, 2024 11:26 AM|Basics, Data Structures & Algorithms|[[Program in Python]]|
-|[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 3 - Expressions & Interactivity\|Lecture 3 - Expressions & Interactivity]]|September 4, 2024 10:46 AM|Basics|[[Programming Concepts and Methodology I (C++)]]|
-|[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 2 - Intro to C++\|Lecture 2 - Intro to C++]]|September 4, 2024 10:45 AM||[[Programming Concepts and Methodology I (C++)]]|
-|[[obsidian_sync/Notion/Home/Notes Manager/Notes/Lecture 1 - Intro to Computers and Programming\|Lecture 1 - Intro to Computers and Programming]]|September 4, 2024 10:42 AM||[[Programming Concepts and Methodology I (C++)]]|
+|[[Expressions & Interactivity\|Lecture 3 - Expressions & Interactivity]]|September 4, 2024 10:46 AM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Intro to C++\|Lecture 2 - Intro to C++]]|September 4, 2024 10:45 AM||[[!!Programming Concepts and Methodology I (C++)]]|
+|[[Intro to Computers and Programming\|Lecture 1 - Intro to Computers and Programming]]|September 4, 2024 10:42 AM||[[!!Programming Concepts and Methodology I (C++)]]|
