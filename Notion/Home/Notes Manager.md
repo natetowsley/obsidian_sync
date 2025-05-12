@@ -59,7 +59,7 @@
 |[[Functions\|Lecture 6 - Functions]]|September 25, 2024 12:57 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
 |[[Loops and Files]]|September 18, 2024 12:57 PM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
 |[[Conditional Branches\|Lecture 4 - Conditional Branches]]|September 9, 2024 10:32 AM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
-|[[Coding in Python]]|September 5, 2024 11:26 AM|Basics, Data Structures & Algorithms|[[Program in Python]]|
+|[[Coding in Python]]|September 5, 2024 11:26 AM|Basics, Data Structures & Algorithms|[[!!Program in Python]]|
 |[[Expressions & Interactivity\|Lecture 3 - Expressions & Interactivity]]|September 4, 2024 10:46 AM|Basics|[[!!Programming Concepts and Methodology I (C++)]]|
 |[[Intro to C++\|Lecture 2 - Intro to C++]]|September 4, 2024 10:45 AM||[[!!Programming Concepts and Methodology I (C++)]]|
 |[[Intro to Computers and Programming\|Lecture 1 - Intro to Computers and Programming]]|September 4, 2024 10:42 AM||[[!!Programming Concepts and Methodology I (C++)]]|

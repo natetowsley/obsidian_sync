@@ -60,7 +60,7 @@ tags:
 # 4.1
 ## Relational Operators
 - Used to compare numbers to determine relative order
-- Opertors
+- Opertaors
 |   |   |
 |---|---|
 |>|Greater than|

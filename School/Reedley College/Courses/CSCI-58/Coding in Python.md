@@ -5,7 +5,7 @@ tags:
   - Basics
   - Data-Structures-&-Algorithms
 📕 Courses:
-  - "[[Program in Python]]"
+  - "[[!!Program in Python]]"
 ---
 # Table of Contents
 - [[#Table of Contents]]

@@ -8,7 +8,9 @@
 [https://silviauralia.notion.site/Aesthetic-Notion-Student-University-4b26e9be9d814939a8d00491a4a51e4c](https://www.notion.so/4b26e9be9d814939a8d00491a4a51e4c?pvs=21)
 —— **school info**
 
-> [!important] 🪪**ID** RC: 0932690
+> [!important] 
+> 🪪**ID** 
+> RC: 0932690
 > 
 > CSUMB: 005552747
 
@@ -35,7 +37,7 @@
 |[[Discrete Mathematics for Computer Science]]|emmanuel.abioye@reedleycollege.edu|CSCI-26||Abiodun Emmanuel Abioye||2025, Spring|
 |[[Computer Architecture and Organization]]|brian.baker@fresnocitycollege.edu|CSCI-45||Brian Baker||2025, Spring|
 |[[!!Programming Concepts and Methodology I (C++)]]|simon.sultana@reedleycollege.edu|CSCI-40||Simon Sultana|,|2024, Fall|
-|[[Program in Python]]|simon.sultana@reedleycollege.edu|CSCI-58||Simon Sultana|,|2024, Fall|
+|[[!!Program in Python]]|simon.sultana@reedleycollege.edu|CSCI-58||Simon Sultana|,|2024, Fall|
 |[[Physics for Scientists and Engineers]]|john.heathcote@reedleycollege.edu|PHYS-4A||John Heathcote||2024, Fall|
   
   
