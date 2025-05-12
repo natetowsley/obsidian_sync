@@ -1,10 +1,10 @@
 ---
-Course code: CSCI-58
+Course code: CSCI-41
 Prof: Simon Sultana
 Contact: simon.sultana@reedleycollege.edu
 Year/Semester:
-  - "2024"
-  - Fall
+  - Spring 2025
 ---
 ## Notebook
-[[CSCI-58]]
+[[CSCI-41]]
+

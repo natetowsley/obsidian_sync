@@ -162,12 +162,12 @@ Casting, also known as type conversion, is **a process that converts a variable
 - `print(type())` will print the class that your variable is
     - Helpful when debugging code using lots of variables and typecasting, as it can get confusing to follow
 ```Python
-name = "Guy"      \#string
-age = 21          \#int
-gpa = 3.5         \#float
-is_student = True \#bool
-print(type(age))  \#Will print <class 'int'> to screen
-age = float(age) \#Will change value from 21 to 21.0
+name = "Guy"      # string
+age = 21          # int
+gpa = 3.5         # float
+is_student = True # bool
+print(type(age))  # Will print <class 'int'> to screen
+age = float(age)  # Will change value from 21 to 21.0
 ```
 - Converting a string into a boolean will return True unless no string is present
     - Helpful for determining if user inputted anything when prompted
@@ -176,8 +176,8 @@ name = "Guy"
 otherName = ""
 name = bool(name)
 otherName = bool(otherName)
-print(name) \#name will return True
-print(otherName) \#otherName will return False
+print(name) # name will return True
+print(otherName) # otherName will return False
 ```
   
 # User Input
@@ -196,14 +196,14 @@ print(otherName) \#otherName will return False
 - In python, user wil be prompted next to prompt, not on a new line, as seen above
 - Since all user input is interpreted as a string, type casting must be done to perform arithmetic expression
 ```Python
-age = input("How old are you?: ") \#ex: 20
-age = age + 1 \#Will result in error/ Attempting to add int to string
+age = input("How old are you?: ") # ex: 20
+age = age + 1 # Will result in error/ Attempting to add int to string
 age = int(age)
-age = age + 1 \#Will result in the value of age being the int 21
+age = age + 1 # Will result in the value of age being the int 21
 ```
 - Type casting can also be dont while promting user for input, assuming we know what variable type we desire
 ```Python
-age = int(input("How old are you?: ") \#ex: 20 (will now be an int, not string)
+age = int(input("How old are you?: ") # ex: 20 (will now be an int, not string)
 ```
   
 # Arithmetic & Math
@@ -221,7 +221,7 @@ age = int(input("How old are you?: ") \#ex: 20 (will now be an int, not string)
 ```Python
 num = 1
 num = num + 3 
-num += 3      \#Both will result in num = 4
+num += 3      # Both will result in num = 4
 ```
 ## Relational Operators
 |   |   |
@@ -247,16 +247,14 @@ num += 3      \#Both will result in num = 4
 - ==`import`== ==`math`== ==must be included prior to function usage==
     - All functions return float values
 - Commonly used functions in math library
-    
-    |   |   |
-    |---|---|
-    |**Function**|**Purpose**|
-    |math.pi|Value of pi|
-    |math.e|Value of e|
-    |math.sqrt(x)|Returns the square root of x|
-    |math.ceil(x)|Rounds a floating point number up|
-    |math.floor(x)|Rounds a floating point number down|
-    
+
+| Function        | Purpose                             |
+| --------------- | ----------------------------------- |
+| `math.pi`       | Value of pi                         |
+| `math.e`        | Value of e                          |
+| `math.sqrt(x)`  | Returns the square root of x        |
+| `math.ceil(x)`  | Rounds a floating point number up   |
+| `math.floor(x)` | Rounds a floating point number down |
 
 > [!important] 🔢 Math Library
 > 
@@ -270,36 +268,38 @@ A condition statement used to check a condition, and then execute it if the cond
 ```Python
 age = int(input("Enter your age: "))
 if age >= 18:
-	print("You are now signed up!") \#Will run only if user inputted age 18 or greater
-elif age < 0: \#Elif is keyword for "else if" (for a new condition to be checked)
+	print("You are now signed up!") # Will run only if user inputted age 18 or greater
+elif age < 0: # Elif is keyword for "else if" (for a new condition to be checked)
 	print("Enter a valid age")
 else:
-	print("You must be 18+ to sign up") \#Will run if age is less than 18
+	print("You must be 18+ to sign up") # Will run if age is less than 18
 ```
 - Indentation matters when using these statements, other languages may vary
 - Some languages do not use `elif`, rather use `else if`
 # Logical Operators
 Logical operators are used to combine multiple conditions together and evaluate them as a single boolean expression.
-|   |   |   |
-|---|---|---|
-|**Operator**|**Purpose**||
-|x ==`or`== y|if x is true, then x, else y|_At least one condition must be true_|
-|x ==`and`== y|if x is false, then x, else y|_Both conditions must be true_|
-|==`not`== x|if x is false, then `True`, else `False`|_Inverts the condition_|
+
+| Operator       | Purpose                                   | Notes                                 |
+|----------------|-------------------------------------------|----------------------------------------|
+| `x or y`       | Returns `x` if `x` is truthy, else `y`    | _At least one condition must be true_ |
+| `x and y`      | Returns `y` if `x` is truthy, else `x`    | _Both conditions must be true_        |
+| `not x`        | Returns `false` if `x` is truthy, else `true` | _Inverts the condition_          |
+
+
 The `or` operator:
 ```Python
 temp = 25
 is_raining = False
-if temp > 95 or temp < 0 or is_raining: \#if only one of these conditions is true, the if condition is ran
+if temp > 95 or temp < 0 or is_raining: # if only one of these conditions is true, the if condition is ran
 	print("The outdoor event is cancelled")
 else:
-	print("The outdoor event is still scheduled") \#if all conditions are false, else is ran
+	print("The outdoor event is still scheduled") # if all conditions are false, else is ran
 ```
 The `and` operator:
 ```Python
 temp = 25
 is_sunny = True
-if temp >= 85 and is_sunny:     \#Both conditions must be true in order for print statements to execute
+if temp >= 85 and is_sunny:     # Both conditions must be true in order for print statements to execute
 	print("It is HOT outside🥵")
 	print("It is SUNNY☀️")
 ```
@@ -307,9 +307,9 @@ if temp >= 85 and is_sunny:     \#Both conditions must be true in order for prin
 A one-line shortcut for the if-else statement (ternary operator). Print or assign one of two values based on a condition(X if condition else Y)
 ```Python
 num = 5
-print("Positive" if num > 0 else "Negative") \#In both lines the condition is included in the expression
+print("Positive" if num > 0 else "Negative") # In both lines the condition is included in the expression
 result = "EVEN" if num % 2 == 0 else "ODD"
-print(result) \#Console will print "Positive" "ODD"
+print(result) # Console will print "Positive" "ODD"
 ```
 ## Bitwise Operators
 Operators that allow you to manipulate single bits of data
@@ -328,22 +328,23 @@ Operators that allow you to manipulate single bits of data
 > > The following sections describe the standard types that are built into the interpreter.  
 > > [https://docs.python.org/3/library/stdtypes.html#str](https://docs.python.org/3/library/stdtypes.html#str)  
 ## String Methods
-- The string class includes many different opperations that can come in handy when dealing with strings
+- The string class includes many different operations that can come in handy when dealing with strings
 - Using print(help(str)) will print a list of string methods to the console
-|   |   |
-|---|---|
-|_**Method**_|_**Purpose**_|
-|len(string)|Returns the length of the string|
-|string.find(””)|Will return the position of the **first** occurance of a character or string|
-|string.rfind(””)|Returns the position of the last occurance of a character or string. r meaning reverse find|
-|string.capitalize()|Capitalizes the first letter in a string|
-|string.upper()|Takes all alphabetical characters in a string and makes them uppercase|
-|string.lower()|Takes all alphabetical characters in a string and makes them lowercase|
-|string.isdigit()|Returns a boolean based upon if the string is completely made up of digits|
-|string.isalpha()|Returns a boolean based upon if the string is completely made up of alphabetical characters|
-|string.count(””)|Will count the amount of a character specified in “ “ inside of a string|
-|string.replace(”x“, “y“)|Will replace all occurances of x with y in a string|
-|string.join(iterable)|Joins each element of iterable by a string separator|
+
+| Method                      | Purpose                                                                 |
+|----------------------------|-------------------------------------------------------------------------|
+| `len(string)`              | Returns the length of the string                                        |
+| `string.find("x")`         | Returns the position of the **first** occurrence of "x"                 |
+| `string.rfind("x")`        | Returns the position of the **last** occurrence of "x" (reverse find)   |
+| `string.capitalize()`      | Capitalizes the first letter in the string                              |
+| `string.upper()`           | Converts all alphabetical characters to uppercase                       |
+| `string.lower()`           | Converts all alphabetical characters to lowercase                       |
+| `string.isdigit()`         | Returns `True` if the string is composed only of digits                 |
+| `string.isalpha()`         | Returns `True` if the string is composed only of letters                |
+| `string.count("x")`        | Counts how many times "x" appears in the string                         |
+| `string.replace("x", "y")` | Replaces all occurrences of "x" with "y"                                |
+| `string.join(iterable)`    | Joins elements of `iterable` using the string as a separator            |
+
 ## F-Strings
 - A formatted string literal, or an f-string, is a string literal that is prefixed ‘f’ or ‘F’
     - These strings may contain replacement fields, which are expressions delimited by curly braces `{}`
@@ -365,13 +366,13 @@ print(f"{name.lower()} is funny.") # Prints "fred is funny."
     ```Python
     credit_number = "1234-5678-9012-3456"
     
-    print(credit_number[3]) \#Will print "4"
+    print(credit_number[3]) # Will print "4"
     
-    print(credit_number[0:4] \#Will print "1234" 4 exclusive doesn't use "-"
+    print(credit_number[0:4] # Will print "1234" 4 exclusive doesn't use "-"
     
-    print(credit_number[5]) \#Will print "5678-9012-3456"
+    print(credit_number[5]) # Will print "5678-9012-3456"
     
-    print(credit_number[::2]) \#Will print "13-6891-46"
+    print(credit_number[::2]) # Will print "13-6891-46"
     ```
     
     - To reverse a string, set `step` to -1
@@ -396,14 +397,15 @@ print("cream" in ice_cream) # Prints True
 ```Python
 print("It\'s me") # Prints "It's me"
 ```
-|   |   |
-|---|---|
-|_**Type**_|_**Purpose**_|
-|\’|Single Quotation Mark|
-|\”|Double Quotation Marks|
-|\n|New Line|
-|\t|Tabulation|
-|\\|Backslash|
+
+| Type   | Purpose                  |
+|--------|--------------------------|
+| `\'`   | Single Quotation Mark    |
+| `\"`   | Double Quotation Marks   |
+| `\n`   | New Line                 |
+| `\t`   | Tabulation               |
+| `\\`   | Backslash                |
+
 ## Basic String Operations
 - Many types of programs perform operations on strings
 - In Python, many tools for examining and manipulating strings
@@ -413,9 +415,7 @@ print("It\'s me") # Prints "It's me"
     
     - Use a `for` loop
         - Format: `for` _`character`_ `in` _`string`_:
-        - Useful when need to iterate over the whole string, such as to count the ovvurrences of a specific character
-    
-    ![[/image 50.png|image 50.png]]
+        - Useful when need to iterate over the whole string, such as to count the occurrences of a specific character
     
     - Use indexing
         - Each character has an index specifying its position in the string, starting at 0
