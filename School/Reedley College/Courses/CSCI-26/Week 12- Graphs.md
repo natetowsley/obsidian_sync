@@ -2,7 +2,7 @@
 Date Created: 2025-04-27T13:22
 Favorite: false
 📕 Courses:
-  - "[[Discrete Mathematics for Computer Science]]"
+  - "[[!!Discrete Mathematics for Computer Science]]"
 ---
 
 # Table of Contents

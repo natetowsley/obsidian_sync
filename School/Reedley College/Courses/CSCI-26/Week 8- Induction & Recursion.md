@@ -2,7 +2,7 @@
 Date Created: 2025-03-18T15:07
 Favorite: false
 📕 Courses:
-  - "[[Discrete Mathematics for Computer Science]]"
+  - "[[!!Discrete Mathematics for Computer Science]]"
 ---
 [https://flocus.com/minimalist-pomodoro-timer/](https://flocus.com/minimalist-pomodoro-timer/)
 # Table of Contents

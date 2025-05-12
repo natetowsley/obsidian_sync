@@ -2,7 +2,7 @@
 Date Created: 2025-04-04T18:06
 Favorite: false
 📕 Courses:
-  - "[[Computer Architecture and Organization]]"
+  - "[[!!Computer Architecture and Organization]]"
 ---
 [https://flocus.com/minimalist-pomodoro-timer/](https://flocus.com/minimalist-pomodoro-timer/)
 # Table of Contents

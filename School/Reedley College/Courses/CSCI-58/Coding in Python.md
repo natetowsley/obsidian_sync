@@ -127,20 +127,20 @@ x, y = y, x \#Will swap the values of these two variables
 - Can print strings on their own
 ```Python
 print("Hello, World)
-\#Will print "Hello, World" to the screen
+# Will print "Hello, World" to the screen
 ```
 - Can also print variables
 ```Python
 userNum = 11
 print(userNum)
-\#Will print "11" to the screen
-\#While variable is an integer, the string "11" is what is printed
+# Will print "11" to the screen
+# While variable is an integer, the string "11" is what is printed
 ```
 - A blank print function (`print()`) will result in a blank line being outputted to the screen
 - `“\n”` is used as a newline character, can be placed directly in a string to indicate a new line is to begin
 ```Python
 print("The itsy bitsy spider\nclimbed up the waterspout.")
-\#Will print "The itsy bitsy spider
+# Will print "The itsy bitsy spider
 #            climbed up the waterspout."
 ```
 - The `end` and `sep` parameters can be used for formatting the output of the `print()` function
@@ -153,7 +153,7 @@ print("The itsy bitsy spider\nclimbed up the waterspout.")
 firstName = "Guy"
 age = 21
 print(f"You're called {firstName} and you are {age} years old.")
-\#Will print "You're called Guy and you are 21 years old."
+# Will print "You're called Guy and you are 21 years old."
 ```
   
 # Typecasting
@@ -208,15 +208,15 @@ age = int(input("How old are you?: ") # ex: 20 (will now be an int, not string)
   
 # Arithmetic & Math
 ## Arithmetic Operators
-|   |   |   |
-|---|---|---|
-|**Operator**|**Meaning**|**Produces**|
-|+|Addition|Sum|
-|-|Subtraction|Difference|
-|*|Multiplication|Product|
-|/|Division|Quotient|
-|%|Modulus|Remainder of division|
-|**|Exponetial|Power|
+
+| **Operator** | **Meaning**    | **Produces**          |
+| ------------ | -------------- | --------------------- |
+| +            | Addition       | Sum                   |
+| -            | Subtraction    | Difference            |
+| *            | Multiplication | Product               |
+| /            | Division       | Quotient              |
+| %            | Modulus        | Remainder of division |
+| **           | Exponetial     | Power                 |
 - When using arithmetic to incriment a variable, an equals sign after the operator will suffice
 ```Python
 num = 1
@@ -224,24 +224,24 @@ num = num + 3
 num += 3      # Both will result in num = 4
 ```
 ## Relational Operators
-|   |   |
-|---|---|
-|**Operator**|**Meaning**|
-|>|Greater than|
-|<|Less than|
-|>=|Greater than or equal to|
-|<=|Less than or equal to|
-|==|Equal to|
-|!=|Not equal to|
+
+| **Operator** | **Meaning**              |
+| ------------ | ------------------------ |
+| >            | Greater than             |
+| <            | Less than                |
+| >=           | Greater than or equal to |
+| <=           | Less than or equal to    |
+| ==           | Equal to                 |
+| !=           | Not equal to             |
 ## Built in Math Functions
-|   |   |
-|---|---|
-|**Function**|**Purpose**|
-|round(x, y)|Takes float x and rounds it to y digits|
-|abs(x)|Returns the absolute value of x|
-|pow(x, y)|An alternative exponential function, raising x to the power of y|
-|max(x, y, z)|Returns the greatest value|
-|min(x, y, z)|Returns the lowest value|
+
+| **Function** | **Purpose**                                                      |
+| ------------ | ---------------------------------------------------------------- |
+| round(x, y)  | Takes float x and rounds it to y digits                          |
+| abs(x)       | Returns the absolute value of x                                  |
+| pow(x, y)    | An alternative exponential function, raising x to the power of y |
+| max(x, y, z) | Returns the greatest value                                       |
+| min(x, y, z) | Returns the lowest value                                         |
 ## Math Library
 - Library of common math functions
 - ==`import`== ==`math`== ==must be included prior to function usage==
@@ -490,19 +490,20 @@ print("It\'s me") # Prints "It's me"
 # Format Specifiers (Flags)
 `{value:flags}` format a value based on what flags are inserted
 - A way to control the behavior of user segments in you application
-|   |   |
-|---|---|
-|_**Flag**_|_**Purpose**_|
-|:.(number)f|round to that many decimal places (fixed point)|
-|:(number)|allocate that many spaces|
-|:0(number)|allocate and zero pad that many spaces|
-|:<|left justify (align left)|
-|:>|right justify (align right)|
-|:^|center align|
-|:+|use a plus sign to indicate positive value|
-|:=|place sign to leftmost position|
-|:|insert a space before positive numbers|
-|:,|comma separator|
+
+| Flag            | Purpose                                         |
+|-----------------|-------------------------------------------------|
+| `:.<number>f`    | Round to that many decimal places (fixed point)|
+| `:<number>`      | Allocate that many spaces                      |
+| `:0<number>`     | Allocate and zero-pad that many spaces         |
+| `:<`             | Left justify (align left)                      |
+| `:>`             | Right justify (align right)                    |
+| `:^`             | Center align                                   |
+| `:+`             | Use a plus sign to indicate positive values    |
+| `:=`             | Place sign in leftmost position                |
+| `: `             | Insert a space before positive numbers         |
+| `:,`             | Use comma as a thousands separator             |
+
 ```Python
 	price1 = 3.14159
 	price2 = -987.65
@@ -592,7 +593,7 @@ for x in range(1, 21):
 	if x == 13:
 		continue
 	else:
-		print(x) \#Will print 1, 2, 3, 4... 20, 21 BUT WILL SKIP 13
+		print(x) # Will print 1, 2, 3, 4... 20, 21 BUT WILL SKIP 13
 ```
 - `break`  exits the loop immediately, and unconditionally ends the loop's operation; the program begins to execute the nearest instruction after the loop's body
 ```Python
@@ -600,7 +601,7 @@ for x in range(1, 21):
 	if x == 13:
 		break
 	else:
-		print(x) \#Will print 1, 2, 3... 11, 12 AND WILL END (or break) BEFORE 13
+		print(x) # Will print 1, 2, 3... 11, 12 AND WILL END (or break) BEFORE 13
 ```
   
 ### The interaction of `i` in while and for loops
@@ -611,23 +612,23 @@ while i < 5:
 	print(i)
 	i += 1
 else:
-	print("else:", i)  \#Will immediately print "else: 5" as it is not less than 5
+	print("else:", i)  # Will immediately print "else: 5" as it is not less than 5
 ```
 - However, in a for loop `i` , even if defined before the loop, will be redefined for the loop itself, and will retain said value at the end of the loop
 ```Python
 i = 111
-for i in range(5):  \#i is redefined to be 0, and then incrimented by one as the loop iterates
+for i in range(5):  # i is redefined to be 0, and then incrimented by one as the loop iterates
     print(i)
 else:
     print("else:", i)
-print(i) \#i will maintain its last value (4) and print here "4"
+print(i) # i will maintain its last value (4) and print here "4"
 ```
   
 # Nested Loops
 A loop within another loop (outer, inner)
 - Can come in a variety of ways
 ```Python
-while x > 0: \#WHILE loop inside a WHILE loop
+while x > 0: # WHILE loop inside a WHILE loop
 	while y > 0:
 		print("do something")
 		
@@ -635,11 +636,11 @@ for x in range(3):  \#FOR loop inside a FOR loop
 	for y in range(9):
 		print("do something")
 		
-while x > 0:   \#FOR loop inside a WHILE loop
+while x > 0:   # FOR loop inside a WHILE loop
 	for x in range(9):
 		print("do something")
 		
-for x in range(3):   \#WHILE loop inside a FOR loop
+for x in range(3):   # WHILE loop inside a FOR loop
 	while x > 0:
 		print("do something")
 ```
@@ -649,7 +650,7 @@ for x in range(3):   \#WHILE loop inside a FOR loop
 for x in range(3):   
 	for y in range(1, 10):
 		print(x, end="")
-	print()            \#Will print 123456789 3 times on 3 different lines
+	print()            # Will print 123456789 3 times on 3 different lines
 ```
   
 # Collections
@@ -664,16 +665,16 @@ A single “variable” used to store multiple values
 - Also known as sequence types
 - It is best practice to make variable name plural when declaring a collection
 ```Python
-fruits = ["apple", "orange", "banana", "coconut"]  \#List made
-print(fruits[2])  \#Will print "banana"
-print(fruits[0: 3]) \#Will print "['apple', 'orange', 'banana']"
+fruits = ["apple", "orange", "banana", "coconut"]  # List made
+print(fruits[2])  # Will print "banana"
+print(fruits[0: 3]) # Will print "['apple', 'orange', 'banana']"
 ```
 - For loops can be used with collections
     - Is common practice to use non-plural of collection name as counter name
 ```Python
 fruits = ["apple", "orange", "banana", "coconut"]
 for fruit in fruits:
-	print(fruit, end=" ")  \#Will print "apple orange banana coconut"
+	print(fruit, end=" ")  # Will print "apple orange banana coconut"
 ```
 ### Collection methods
 - `print(dir(collectionName))` will print all methods that can be used by your collection
@@ -694,21 +695,21 @@ for fruit in fruits:
 - Items in list do not have to be same type but most commonly are
 ```Python
 fruits = ["apple", "orange", "banana", "coconut"]
-fruits[0] = "pineapple" \#Replaces "apple" with "pineapple"
-print(fruits[0])   \#Will print "pineapple"
+fruits[0] = "pineapple" # Replaces "apple" with "pineapple"
+print(fruits[0])   # Will print "pineapple"
 ```
 ### List Methods
-|   |   |
-|---|---|
-|_**Method**_|_**Purpose**_|
-|list.append(”value”)|Appends value to the end of the list|
-|list.remove(”value”)|Removes value from the list|
-|list.insert(x, “value”)|Inserts value at index x in list|
-|list.sort()|Will sort a list in alphabetical order|
-|list.reverse()|Reverses order of a list based on order placed|
-|list.clear()|Clears a list entirely|
-|list.index(”value”)|Returns the index of value|
-|list.count(”value”)|Counts how many times value appears in list|
+
+| _**Method**_            | _**Purpose**_                                  |
+| ----------------------- | ---------------------------------------------- |
+| list.append(”value”)    | Appends value to the end of the list           |
+| list.remove(”value”)    | Removes value from the list                    |
+| list.insert(x, “value”) | Inserts value at index x in list               |
+| list.sort()             | Will sort a list in alphabetical order         |
+| list.reverse()          | Reverses order of a list based on order placed |
+| list.clear()            | Clears a list entirely                         |
+| list.index(”value”)     | Returns the index of value                     |
+| list.count(”value”)     | Counts how many times value appears in list    |
 ### Nested Lists
 - A list can contain other lists
     - Can be used to arrange data into hierarchical structures
@@ -740,7 +741,7 @@ print(list_2)
 ```Python
 my_list = [10, 8, 6, 4, 2]
 new_list = my_list[1:3]
-print(new_list) \#Will print [8, 6]
+print(new_list) # Will print [8, 6]
 ```
 - `my_list[:3]` is a more compact way to code `my_list[0:3]`
 - Similarly, if you omit the `end` in your slice, it is assumed that you want the slice to end at the element with the index `len(my_list)`
@@ -751,9 +752,9 @@ print(new_list) \#Will print [8, 6]
 - returns a boolean value after checking if a value is stored inside a list or not
 ```Python
 my_list = [0, 3, 12, 8, 2]
-print(5 in my_list)     \#prints "False"
-print(5 not in my_list) \#prints "True"
-print(12 in my_list)    \#prints "True"
+print(5 in my_list)     # prints "False"
+print(5 not in my_list) # prints "True"
+print(12 in my_list)    # prints "True"
 ```
 ### List Comprehension
 - List comprehension offers a more compact syntax when you want to create a new list based on the values of an existing list or another iterable (tuple, string, array, range, etc.)
@@ -776,27 +777,27 @@ matrix = [[string[j] for j in range(10)] for i in range(10)]
 for row in matrix:
     print(row) # prints ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
                       # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-											# ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+					  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+	   				  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+					  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+					  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+					  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+					  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+					  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+					  # ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 ```
 ## Sets `{}`
 - Unordered and immutable (cannot alter values), but Add/Remove OK. NO duplicates
 - Unable to use indexing on sets as they are unordered
 - Work well when working with constants
 ### Set Methods
-|   |   |
-|---|---|
-|_**Method**_|_**Purpose**_|
-|set.add(”value”)|Will add value to set|
-|set.remove(”value”)|Will remove value from set|
-|set.pop()|Removes and returns a random element from a set|
-|set.clear()|Will completely clear a set|
+
+| _**Method**_        | _**Purpose**_                                   |
+| ------------------- | ----------------------------------------------- |
+| set.add(”value”)    | Will add value to set                           |
+| set.remove(”value”) | Will remove value from set                      |
+| set.pop()           | Removes and returns a random element from a set |
+| set.clear()         | Will completely clear a set                     |
 ## Tuples `()`
 - Ordered and unchangeable. Duplicates OK. FASTER
 - Only methods are `tuple.index(”value”)` and `tuple.count(”value”)`
@@ -821,17 +822,17 @@ A collection of {key: value} pairs
 - Not a sequence type, but can be easily adapted to sequence processing
 - Contents can be changed
 ### Dictionary Methods
-|   |   |
-|---|---|
-|_**Method**_|_**Purpose**_|
-|dic.get(key)|Gets the value from the key “key”|
-|dic.update({Key: Value})|Adds a key value pair to the end of the dictionary|
-|dic.pop(Key)|Will remove a key value pair from the dictionary|
-|dic.popitem()|Will remove the latest key value pair from the dictionary|
-|dic.clear|Will clear the dicitonary|
-|dic.keys()|Returns the keys of a dictionary|
-|dic.values()|Returns the values of a dictionary|
-|dic.items()|Returns a dictionary object resembling a 2d list of tuples|
+
+| _**Method**_             | _**Purpose**_                                              |
+| ------------------------ | ---------------------------------------------------------- |
+| dic.get(key)             | Gets the value from the key “key”                          |
+| dic.update({Key: Value}) | Adds a key value pair to the end of the dictionary         |
+| dic.pop(Key)             | Will remove a key value pair from the dictionary           |
+| dic.popitem()            | Will remove the latest key value pair from the dictionary  |
+| dic.clear                | Will clear the dicitonary                                  |
+| dic.keys()               | Returns the keys of a dictionary                           |
+| dic.values()             | Returns the values of a dictionary                         |
+| dic.items()              | Returns a dictionary object resembling a 2d list of tuples |
 ```Python
 # Dictionary example
 tel = {'jack': 4098, 'sape': 4139}
@@ -870,7 +871,7 @@ An algorithm that puts elements of a list into an order
 - While loop bubble sort:
 ```Python
 my_list = [8, 10, 6, 2, 4]  # list to sort
-swapped = True  \#Set to true in order to enter while loop
+swapped = True  # Set to true in order to enter while loop
 while swapped:
     swapped = False  # no swaps so far
     for i in range(len(my_list) - 1):
@@ -884,7 +885,7 @@ print(my_list)
 ```Python
 my_list = [8, 10, 6, 2, 4]
 my_list.sort()
-print(my_list) \#Will print [2, 4, 6, 8, 10]
+print(my_list) # Will print [2, 4, 6, 8, 10]
 ```
   
 # Functions
