@@ -31,14 +31,14 @@
 > "𝒟𝑜𝓃'𝓉 𝓎𝑜𝓊 𝓌𝒶𝓃𝓉 𝓉𝑜 𝒽𝒶𝓃𝑔 𝑜𝓊𝓉 𝒶𝓃𝒹 𝓌𝒶𝓈𝓉𝑒 𝓎𝑜𝓊𝓇 𝓁𝒾𝒻𝑒 𝓌𝒾𝓉𝒽 𝓊𝓈?"
 ---
 #### Courses
-|Name|![](https://www.notion.so/icons/username_gray.svg)Contact|![](https://www.notion.so/icons/drafts_gray.svg)Course code|Date|![](https://www.notion.so/icons/apple_gray.svg)Prof|![](https://www.notion.so/icons/book-closed_gray.svg)Tests/Quizzes|![](https://www.notion.so/icons/calendar-month_gray.svg)Year/Semester|
-|---|---|---|---|---|---|---|
-|[[!!Programming Concepts and Methodology II (C++)]]|simon.sultana@reedleycollege.edu|CSCI-41||Simon Sultana||2025, Spring|
-|[[!!Discrete Mathematics for Computer Science]]|emmanuel.abioye@reedleycollege.edu|CSCI-26||Abiodun Emmanuel Abioye||2025, Spring|
-|[[!!Computer Architecture and Organization]]|brian.baker@fresnocitycollege.edu|CSCI-45||Brian Baker||2025, Spring|
-|[[!!Programming Concepts and Methodology I (C++)]]|simon.sultana@reedleycollege.edu|CSCI-40||Simon Sultana|,|2024, Fall|
-|[[!!Program in Python]]|simon.sultana@reedleycollege.edu|CSCI-58||Simon Sultana|,|2024, Fall|
-|[[Physics for Scientists and Engineers]]|john.heathcote@reedleycollege.edu|PHYS-4A||John Heathcote||2024, Fall|
+| Name                                                | Contact                            | Course code | Date | Prof                    | Year/Semester |
+| --------------------------------------------------- | ---------------------------------- | ----------- | ---- | ----------------------- | ------------- |
+| [[!!Programming Concepts and Methodology II (C++)]] | simon.sultana@reedleycollege.edu   | CSCI-41     |      | Simon Sultana           | 2025, Spring  |
+| [[!!Discrete Mathematics for Computer Science]]     | emmanuel.abioye@reedleycollege.edu | CSCI-26     |      | Abiodun Emmanuel Abioye | 2025, Spring  |
+| [[!!Computer Architecture and Organization]]        | brian.baker@fresnocitycollege.edu  | CSCI-45     |      | Brian Baker             | 2025, Spring  |
+| [[!!Programming Concepts and Methodology I (C++)]]  | simon.sultana@reedleycollege.edu   | CSCI-40     |      | Simon Sultana           | 2024, Fall    |
+| [[!!Program in Python]]                             | simon.sultana@reedleycollege.edu   | CSCI-58     |      | Simon Sultana           | 2024, Fall    |
+| [[!!Physics for Scientists and Engineers]]            | john.heathcote@reedleycollege.edu  | PHYS-4A     |      | John Heathcote          | 2024, Fall    |
   
   
   
