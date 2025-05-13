@@ -4,7 +4,7 @@ Favorite: false
 📕 Courses:
   - "[[!!Discrete Mathematics for Computer Science]]"
 ---
-[https://flocus.com/minimalist-pomodoro-timer/](https://flocus.com/minimalist-pomodoro-timer/)
+#### Tags: #ComputerScience 
 # Table of Contents
 - [[#Table of Contents]]
 - [[#9.1]]

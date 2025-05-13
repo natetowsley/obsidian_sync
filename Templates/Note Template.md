@@ -1,7 +1,5 @@
-## [[course]]
-### {{semester}}
-#### {{date}}
+## Created: {{date}}
 
-# Table of Contents
+#### TOC
 ```table-of-contents
 ```

@@ -1,12 +1,10 @@
 ---
 Date Created: 2024-09-05T11:26
 Favorite: false
-tags:
-  - Basics
-  - Data-Structures-&-Algorithms
 📕 Courses:
-  - "[[!!Program in Python]]"
+  - "[[!!Programming in Python]]"
 ---
+###### tags: #DataStructuresAndAlgorithms #ComputerScience #Python #Basics 
 # Table of Contents
 - [[#Table of Contents]]
 - [[#Variables]]

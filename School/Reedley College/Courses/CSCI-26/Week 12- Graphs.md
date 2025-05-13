@@ -4,7 +4,7 @@ Favorite: false
 📕 Courses:
   - "[[!!Discrete Mathematics for Computer Science]]"
 ---
-
+#### Tags: #ComputerScience 
 # Table of Contents
 - [[#Table of Contents]]
 - [[#12.1]]

@@ -5,5 +5,5 @@ Contact: john.heathcote@reedleycollege.edu
 Year/Semester:
   - Fall 2024
 ---
-## Notebook
+## Notes
 [[]]

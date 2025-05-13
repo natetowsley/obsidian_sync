@@ -4,5 +4,8 @@ Prof:
 Contact: 
 Year/Semester: []
 ---
-## Notebook
-[[]]
+## Notes
+
+| Name | Date Created |
+| ---- | ------------ |
+|      |              |

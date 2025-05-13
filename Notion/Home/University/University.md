@@ -37,7 +37,7 @@
 | [[!!Discrete Mathematics for Computer Science]]     | emmanuel.abioye@reedleycollege.edu | CSCI-26     |      | Abiodun Emmanuel Abioye | 2025, Spring  |
 | [[!!Computer Architecture and Organization]]        | brian.baker@fresnocitycollege.edu  | CSCI-45     |      | Brian Baker             | 2025, Spring  |
 | [[!!Programming Concepts and Methodology I (C++)]]  | simon.sultana@reedleycollege.edu   | CSCI-40     |      | Simon Sultana           | 2024, Fall    |
-| [[!!Program in Python]]                             | simon.sultana@reedleycollege.edu   | CSCI-58     |      | Simon Sultana           | 2024, Fall    |
+| [[!!Programming in Python]]                             | simon.sultana@reedleycollege.edu   | CSCI-58     |      | Simon Sultana           | 2024, Fall    |
 | [[!!Physics for Scientists and Engineers]]            | john.heathcote@reedleycollege.edu  | PHYS-4A     |      | John Heathcote          | 2024, Fall    |
   
   

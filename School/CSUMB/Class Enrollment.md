@@ -1,0 +1,4 @@
+- Drop 205 (Python + 1 Reedley class will cover)
+- Add UD 3 class of choosing
+- Add Programming or Computing Elective
+	- Probably CST-336 (Internet Programming)
