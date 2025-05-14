@@ -5,6 +5,9 @@ Contact: simon.sultana@reedleycollege.edu
 Year/Semester:
   - "2024"
   - Fall
+tags:
+  - ComputerScience
+  - Python
 ---
 ## Notes
 | Name                 | Date Created               |

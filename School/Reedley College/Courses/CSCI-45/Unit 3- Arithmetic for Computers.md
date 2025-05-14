@@ -4,7 +4,7 @@ Favorite: false
 📕 Courses:
   - "[[!!Computer Architecture and Organization]]"
 ---
-[https://flocus.com/minimalist-pomodoro-timer/](https://flocus.com/minimalist-pomodoro-timer/)
+###### tags: #ComputerScience
 # Table of Contents
 - [[#Table of Contents]]
 - [[#3.2]]

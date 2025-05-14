@@ -4,6 +4,8 @@ Prof: Brian Baker
 Contact: brian.baker@fresnocitycollege.edu
 Year/Semester:
   - Spring 2025
+tags:
+  - ComputerScience
 ---
 ## Notes
 | Name                                         | Date Created             |

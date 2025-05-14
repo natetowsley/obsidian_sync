@@ -5,7 +5,7 @@ Favorite: false
   - "[[!!Programming Concepts and Methodology II (C++)]]"
 ---
 Lecture 8: Inheritance & Abstract Classes
-[https://flocus.com/minimalist-pomodoro-timer/](https://flocus.com/minimalist-pomodoro-timer/)
+###### tags: #ComputerScience #DataStructuresAndAlgorithms 
 # Table of Contents
 - [[#Table of Contents]]
 - [[#15.1]]

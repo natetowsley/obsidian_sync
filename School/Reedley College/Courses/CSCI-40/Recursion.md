@@ -3,6 +3,7 @@ Date Created: 2024-11-26T13:18
 Favorite: false
 tags:
   - Basics
+  - ComputerScience
 📕 Courses:
   - "[[!!Programming Concepts and Methodology I (C++)]]"
 ---

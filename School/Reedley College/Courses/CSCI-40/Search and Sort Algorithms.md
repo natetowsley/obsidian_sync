@@ -1,7 +1,9 @@
 ---
 Date Created: 2024-10-16T12:56
 Favorite: false
-tags: []
+tags:
+  - ComputerScience
+  - DataStructuresAndAlgorithms
 📕 Courses:
   - "[[!!Programming Concepts and Methodology I (C++)]]"
 ---

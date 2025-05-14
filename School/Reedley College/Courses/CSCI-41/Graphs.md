@@ -142,7 +142,7 @@ $$A_G(i,j) = \begin{cases} 1 & \text{ if } (v_i, v_j) \in E(G) \\ 0 & \text{ oth
 - Depth-first ordering of vertices
     - 0, 1, 4, 3, 2, 5, 7, 8, 6, 9
 ### DFS Algorithm
-```Python
+```C++
 void DepthFirstSearch(Vertex* startVertex,
 	VertexVisitor& visitor) {
 	std::stack<Vertex*> vertexStack;
@@ -167,7 +167,7 @@ void DepthFirstSearch(Vertex* startVertex,
     - Similar to traversing a binary tree level by level
     - Nodes at each level are visited from left to right
 - Starting at the first vertex, the graph is traversed as much as possible
-    - The ngo to next vertex not yet visited
+    - The next to next vertex not yet visited
 - Use a queue to implement the breadth first search algorithm
 ![[image 7 22.png|image 7 22.png]]
 - Breadth-first ordering of vertices:

@@ -4,6 +4,7 @@ Prof: John Heathcote
 Contact: john.heathcote@reedleycollege.edu
 Year/Semester:
   - Fall 2024
+tags: []
 ---
 ## Notes
 [[]]

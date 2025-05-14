@@ -3,10 +3,10 @@ Date Created: 2024-10-07T13:00
 Favorite: false
 tags:
   - Basics
+  - ComputerScience
 📕 Courses:
   - "[[!!Programming Concepts and Methodology I (C++)]]"
 ---
-[https://flocus.com/minimalist-pomodoro-timer/](https://flocus.com/minimalist-pomodoro-timer/)
 # Table of Contents
 - [[#Table of Contents]]
 - [[#7.1]]

@@ -9,6 +9,7 @@ Year/Semester:
 
 | Name                                               | Date Created              |
 | -------------------------------------------------- | ------------------------- |
+| [[Week 14 - Trees]]                                |                           |
 | [[Week 13- Advanced Counting]]                     | May 9, 2025 8:00 PM       |
 | [[Week 12- Graphs]]                                | April 27, 2025 1:22 PM    |
 | [[Week 11- Intro to Counting]]                     | April 14, 2025 12:34 PM   |

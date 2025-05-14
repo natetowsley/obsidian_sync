@@ -4,7 +4,7 @@ Favorite: false
 📕 Courses:
   - "[[!!Programming Concepts and Methodology II (C++)]]"
 ---
-[https://flocus.com/minimalist-pomodoro-timer/](https://flocus.com/minimalist-pomodoro-timer/)
+###### tags: #ComputerScience
 # Table of Contents
 - [[#Table of Contents]]
 - [[#15.1]]
