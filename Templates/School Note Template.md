@@ -1,6 +1,8 @@
-#### Class: [[]]
-#### Tags : 
-#### Date: {{date}}
+---
+📕 Courses: 
+tags: 
+Date Created:
+---
 ---
 
 ---

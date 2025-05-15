@@ -1,11 +1,11 @@
 ---
-Date Created: 2025-04-21T13:05
-Favorite: false
-tags: []
 📕 Courses:
   - "[[!!Programming Concepts and Methodology II (C++)]]"
+tags:
+  - ComputerScience
+  - ComputerScience/DataStructuresAndAlgorithms
+Date Created: 2025-04-21T13:05
 ---
-###### tags: #ComputerScience/DataStructuresAndAlgorithms #ComputerScience
 # Table of Contents
 - [[#Table of Contents]]
 - [[#14.1]]

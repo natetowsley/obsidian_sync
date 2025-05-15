@@ -1,7 +1,12 @@
-## [[!!Programming Concepts and Methodology II (C++)]]
-### {{Spring 2025}}
-#### 05/12/2025
-###### tags: #ComputerScience #ComputerScience/DataStructuresAndAlgorithms 
+---
+📕 Courses:
+  - "[[!!Programming Concepts and Methodology II (C++)]]"
+tags:
+  - ComputerScience
+  - ComputerScience/DataStructuresAndAlgorithms
+Date Created:
+---
+
 
 # Table of Contents
 ```table-of-contents

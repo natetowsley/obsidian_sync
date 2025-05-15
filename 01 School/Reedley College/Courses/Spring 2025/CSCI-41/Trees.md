@@ -406,3 +406,7 @@ bool Remove(int key) {
 ### Template Considerations for Binary Search Trees
 - Binary tree can be implemented as a template, allowing flexibility in determining type of data stored
 - Implementation must support relational operators >, <, and == to allow comparison of nodes
+---
+# References
+1. [[Week 14 - Trees]]
+2. [[Balanced Trees & Heaps]]

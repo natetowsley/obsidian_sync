@@ -72,6 +72,7 @@ Favorite: false
         - [[#Various Function Calls]]
 - [[#Scope]]
     - [[#Global Variables]]
+- STOPPED HERE
 - [[#Standard Library Functions and the import Statement]]
     - [[#Generating Random Numbers]]
     - [[#Random Number Seeds]]
@@ -678,14 +679,15 @@ for fruit in fruits:
 - `print(dir(collectionName))` will print all methods that can be used by your collection
     - Works for lists, sets, and tuples
     - `print(help(collectionName))` prints a description of all available methods
-|   |   |
-|---|---|
-|_**Method**_|_**Purpose**_|
-|len(collection)|Returns the length of a collection|
-|(“x” in collection)|Returns True if x is in collection, False if not|
+
+| **Method**          | **Purpose**                                            |
+| ------------------- | ------------------------------------------------------ |
+| `len(collection)`   | Returns the length of a collection                     |
+| `"x" in collection` | Returns `True` if `x` is in collection, `False` if not |
+
 ## Lists `[]`
 - Ordered and changeable. Duplicates OK
-- Elements in a list must be seperated by comma and all enclosed with square brackets `[]`
+- Elements in a list must be separated by comma and all enclosed with square brackets `[]`
 - To access an element at specific value of list, use index operator with index of desired element
     - First value is at index 0
     - `[start: end: step]`
@@ -1031,7 +1033,6 @@ print(var)       \#Var still = 1
 ## Global Variables
 - Variable that ignore scope and are accessible at all parts of the code are global
     - Declared using keyword `global` before variable name
-  
 # Standard Library Functions and the `import` Statement
 - **Modules:** files that store functions of the standard library
     - Help organize library functions not built into the interpreter
