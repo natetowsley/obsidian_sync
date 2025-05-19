@@ -40,6 +40,12 @@ Date Created:
 	- It follows that
 ![[Pasted image 20250519113337.png]]
 
+# 15.3
+## Conditional Probability and Independence
+- The ***conditional probability*** of $E$ given $F$ is
+![[Pasted image 20250519161258.png]]
+- If the distribution is uniform, then:  ![[Pasted image 20250519161439.png]]
+	- and the conditional probability becomes: ![[Pasted image 20250519161512.png]]
 ---
 # References
 1. 
