@@ -27,6 +27,19 @@ Date Created:
 ### Probability Distributions
 - A ***probability distribution*** over the outcomes of an experiment with a countable sample space ***S*** is a function ***p*** from ***S*** to the set of real numbers in the interval from 0 to 1 with the property that:
 ![[Pasted image 20250515165930.png]]
+
+# 15.2
+## Unions and Complements of Events
+### Calculating Probabilities for Unions of Events
+- Two events are ***mutually exclusive*** if the two events are disjoint (the intersection of the two events is empty)
+	- It follows from the definition of the probability of an event that if $E_1$ and $E_2$ are mutually exclusive, then:
+	![[Pasted image 20250519112802.png]]
+### The Complement of an Event
+- The ***complement*** of an event $E$ is $S-E$ and is denoted by $\overline{E}$ 
+	- Since $E$ and $\overline{E}$ are disjoint events, $p(E) + p(\overline{E}) = 1$
+	- It follows that
+![[Pasted image 20250519113337.png]]
+
 ---
 # References
 1. 
