@@ -2,10 +2,14 @@
 Course code: 
 Prof: 
 Contact: 
-Year/Semester: []
+Year/Semester:
 ---
-## Notes
+---
 
-| Name | Date Created |
-| ---- | ------------ |
-|      |              |
+
+## Notes
+```dataview
+LIST
+from "obsidian_sync/01 School/CSUMB/"
+where file.name != this.file.name
+```

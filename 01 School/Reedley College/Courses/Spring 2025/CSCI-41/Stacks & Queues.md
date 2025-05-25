@@ -246,6 +246,7 @@ void Enqueue(int newData) {
    newNode = new QueueNode(newData);
    if (nullptr == front) {
       front = newNode;
+      end = newNode;
    }
    else {
       end->next = newNode;

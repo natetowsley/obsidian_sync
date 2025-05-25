@@ -59,7 +59,7 @@ void countDown(int num)
 ## Solving Problems with Recursion
 ### Recursive Functions - Purpose
 - Recursive functions are used to reduce a complex problem to a simpler-to-solve problem
-- The simpler-to-solve problem is knokwn as the base case
+- The simpler-to-solve problem is known as the base case
 - Recursive calls stop when the base case is reached
 ### Stopping the Recursion
 - A recursive function must always include a test to determine if another recursive call should be made, or if the recursion should stop with this call

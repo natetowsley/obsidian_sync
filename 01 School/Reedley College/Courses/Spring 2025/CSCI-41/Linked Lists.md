@@ -131,7 +131,7 @@ struct ListNode {
     - Add node to the end of the list:
         - If list is empty, set head pointer to this node
         - Else:
-            - travese the list to the end
+            - traverse the list to the end
             - set pointer of last node to point to new node
 ![[image 7 9.png|image 7 9.png]]
 ### Code for Appending Node (C++)
