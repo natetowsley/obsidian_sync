@@ -4,7 +4,7 @@ Favorite: false
 📕 Courses:
   - "[[!!Programming in Python]]"
 ---
-###### tags: #ComputerScience/DataStructuresAndAlgorithms #ComputerScience #Python #ComputerScience/Basics 
+###### tags: #ComputerScience/DataStructuresAndAlgorithms #ComputerScience  #ComputerScience/Basics 
 # Table of Contents
 - [[#Table of Contents]]
 - [[#Variables]]

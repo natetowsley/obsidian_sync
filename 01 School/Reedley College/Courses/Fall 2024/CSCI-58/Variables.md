@@ -4,7 +4,7 @@
 tags:
   - ComputerScience
   - ComputerScience/Basics
-  - Python
+  - ComputerScience/Python
 Date Created:
 ---
 ---

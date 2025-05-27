@@ -3,7 +3,7 @@
   - "[[!!Programming in Python]]"
 tags:
   - ComputerScience
-  - Python
+  - ComputerScience/Python
 Date Created:
 ---
 ---

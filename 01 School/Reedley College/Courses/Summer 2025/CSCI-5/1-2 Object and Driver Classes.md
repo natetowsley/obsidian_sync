@@ -2,14 +2,11 @@
 📕 Courses:
   - "[[!!Java Programming]]"
 tags:
-  - ComputerScience
-  - Java
+  - ComputerScience/Java
 Date Created:
 ---
 ---
-# 1-1
-## Introduction
-
+# General Java Program Form
 ---
 # References
 1. 

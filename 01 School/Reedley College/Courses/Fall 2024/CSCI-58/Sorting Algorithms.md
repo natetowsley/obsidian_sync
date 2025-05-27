@@ -4,7 +4,7 @@
 tags:
   - ComputerScience
   - ComputerScience/DataStructuresAndAlgorithms
-  - Python
+  - ComputerScience/Python
 Date Created:
 ---
 ---
