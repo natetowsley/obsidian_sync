@@ -5,8 +5,6 @@ Contact:
 Year/Semester:
 ---
 ---
-
-
 ## Notes
 ```dataview
 LIST
