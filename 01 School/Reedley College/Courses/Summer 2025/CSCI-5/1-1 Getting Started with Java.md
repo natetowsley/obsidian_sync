@@ -15,7 +15,7 @@ Date Created:
 # Steps to Launch Eclipse
 - The steps shown in the following slides are for using the Eclipse Java IDE
 	- Different IDEs may have different steps
-- Open Elcipse
+- Open Eclipse
 - When prompted, enter the pathname for the workspace into which you will store your Java projects and click the OK button
 	- This can be you c:\ drive, or possibly a network drive
 - Eclipse will start and display that Welcome page
