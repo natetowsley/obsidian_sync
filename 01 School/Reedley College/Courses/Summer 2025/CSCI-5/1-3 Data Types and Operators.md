@@ -120,7 +120,77 @@ EX:
 - Post-increment notation:
 	- `x++;`
 
-# Assignment Operator (SLIDE 30)
+# Assignment Operator
+- Java uses the = (equal sign) as the assignment operator
+![[Pasted image 20250529145701.png|450]]
+
+# Truncation and Integer Division
+- Division of two integers will ALWAYS produce an integer
+- Integer Division Examples:
+	- 16 / 3 = 5 (Truncation)
+	- 10 / 3 = 3 (Truncation)
+	- 16 % 3 = 1
+	- 12 % 3 = 0
+	- 11 % 3 = 2
+- To calculate a quotient without truncation (decimal results), convert either the dividend or the divisor to a decimal
+- For example:
+	- 11 / 5.0 = 2.2 and likewise, 11.0 / 5 = 2.2
+
+# Understanding Types and Conversion
+- There are a few ways to force a formula to not truncate a value:
+	- Move the fraction to the end so that Java will always use a double and an integer and will implicitly convert the answer to a double, not truncate
+	- ![[Pasted image 20250529150227.png|450]]
+	- Make one literal integers into a literal double so that Java will always use a double and an integer and will implicitly convert the answer to a double, not truncate
+	- ![[Pasted image 20250529150334.png|450]]
+## Implicit Type Conversions
+- In the previous example, Java did implicit type conversion
+- This happens whenever a smaller data type (int) is placed into a larger type (double)
+- Java realizes that the types are different and converts to the larger size automatically for you
+- However, Java will not convert from a larger (double) to a smaller (int) size automatically
+## Using Type Casting
+- Using the random method from the Math library, we can generate a random number from 1 to 10
+- The random method generates a double between 0 and (not including) 1
+- Values such as 0, 0.4567, or 0.901306 might be generated
+![[Pasted image 20250529151341.png|400]]
+- Multiplying these values by 10 and then truncating the extra would yield values 0, 4, or 9
+- However, Java will not let this program compile in its current state
+- Data is lost by going from a larger value (double) to a smaller value (int)
+- Thus, type casting is required for this type conversion
+## Type Casting Operator
+- To cast a double value to an int, use (int) in front of the value
+- To get the double result from our formula to go into the integer container, use the type casting operator (int) in front of the value
+- Casting to the int data type will truncate the value
+- Thus, casting the double literal 4.567 to an int will result in 4, and 9.01306 will result in 9
+![[Pasted image 20250529151636.png|500]]
+## Converting Data Types
+- You can convert a data type (primitive or reference) to another data type by simply placing the name of the data type in parenthesis in front of the value or variable, as shown in the example below
+![[Pasted image 20250529151746.png|600]]
+### Converting String Data Types
+- Note that casting will not work in all situations
+- For example:
+	- Casting a char to a String results in a compiler error
+	- In situations such as this, you would need to resort to making the type conversion in another way
+	- There are methods in the java.lang library to convert characters to strings
+
+# Using Type Conversions
+- Using type conversions is another option to fixing the truncation issue with the volume formula shown previously
+- Use type casting to make one of the literal integers a double
+![[Pasted image 20250529152023.png|550]]
+## Understanding Types and Conversions
+- When Java is converting from a smaller primitive type to a larger primitive type, the conversion is implicit
+![[Pasted image 20250529152145.png|450]]
+- However, when Java converts from a larger primitive type to a smaller primitive type, the conversion muse be explicit via type casting
+- Java will not implicitly cast a larger type to a smaller type because of loss of precision
+![[Pasted image 20250529152302.png|600]]
+
+# Searching Through the Java API
+- Examples and exercises in this course will require the use of the methods in the Java Math and String classes
+	- A description of all Java methods can be found in the online Java API
+- Understanding how to navigate this vast library of standard methods and classes will aid you in writing Java programs and reusing code blocks that have already been created by others
+## Why Use the Java API?
+- One major benefit to having access to the Java API is a common concept programmers call code reuse
+- Rather than coding excess items, you may use the API to find how to access existing code that does exactly what you want
+- This will reduce spending time on reproducing already existing code and making your programming much more efficient
 ---
 # References
 1. 
