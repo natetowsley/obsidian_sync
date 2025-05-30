@@ -13,3 +13,6 @@
 
 > [!important] 📩 **[Inbox](https://mail.google.com/mail/u/1/#inbox)**
 ---
+
+# Current Assignments
+![[jf_4_1_NathanTowsley.java]]
