@@ -15,4 +15,4 @@
 ---
 
 # Current Assignments
-![[jf_4_1_NathanTowsley.java]]![[jf_4_3_NathanTowsley.java]]
+![[jf_4_1_NathanTowsley.java]]![[jf_4_3_NathanTowsley.java]]![[mathFormulas.java]]
