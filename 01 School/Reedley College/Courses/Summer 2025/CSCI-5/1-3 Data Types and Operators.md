@@ -6,6 +6,8 @@ tags:
 Date Created:
 ---
 ---
+```table-of-contents
+```
 # Java Programming Types
 - In Java, data types:
 	- Are used to define the kind of data that can be stored inside a variable

@@ -6,6 +6,8 @@ tags:
 Date Created:
 ---
 ---
+```table-of-contents
+```
 # What is a String?
 - A String is an object that contains a sequence of characters
 - Declaring and instantiating a String is much like any other object variable
