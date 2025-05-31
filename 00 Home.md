@@ -6,6 +6,7 @@
 > RC: 0932690
 > 
 > CSUMB: 005552747
+> Otter ID: tows6693
 
 > [!important] **🎒 [CANVAS](https://scccd.instructure.com/)**
 
