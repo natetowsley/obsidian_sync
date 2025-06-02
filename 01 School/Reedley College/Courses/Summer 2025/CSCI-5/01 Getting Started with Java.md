@@ -6,6 +6,8 @@ tags:
   - ComputerScience
 Date Created:
 ---
+```table-of-contents
+```
 ---
 # Java JRE and Java JDK
 - Differences between Java JRE and Java JDK:

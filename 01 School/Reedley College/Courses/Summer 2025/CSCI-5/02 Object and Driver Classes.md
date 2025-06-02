@@ -6,6 +6,8 @@ tags:
   - ComputerScience
 Date Created:
 ---
+```table-of-contents
+```
 ---
 # General Java Program Form
 - There are two general forms of Java classes:

@@ -6,8 +6,6 @@ tags: []
   - "[[!!Programming Concepts and Methodology II (C++)]]"
 ---
 ###### tags: #ComputerScience/DataStructuresAndAlgorithms #ComputerScience
-# Table of Contents
-- [[#Table of Contents]]
 - [[#7.1]]
     - [[#Hash Tables]]
     - [[#Review Maps - General Concepts]]

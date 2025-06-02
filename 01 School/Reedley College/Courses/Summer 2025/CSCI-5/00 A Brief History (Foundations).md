@@ -6,6 +6,8 @@ tags:
   - ComputerScience/Java
 Date Created:
 ---
+```table-of-contents
+```
 ---
 # Java Technology
 - Java is the global standard for developing and delivering embedded and mobile applications, games, web-based content, and enterprise software

@@ -1,8 +1,15 @@
-#### Class: [[!!Programming Concepts and Methodology II (C++)]]
-#### Tags : #ComputerScience #ComputerScience/DataStructuresAndAlgorithms 
-#### Date: 05/13/2025
 ---
-## Depth First Traversal
+📕 Courses:
+  - "[[!!Programming Concepts and Methodology II (C++)]]"
+tags:
+  - ComputerScience
+  - ComputerScience/DataStructuresAndAlgorithms
+Date Created:
+---
+```table-of-contents
+```
+---
+# Depth First Traversal
 - **Depth first traversal** at a given node, $v$
     - Mark node $v$ as visited
     - Visit the node
@@ -13,7 +20,7 @@
 ![[image 7 22.png|image 7 22.png]]
 - Depth-first ordering of vertices
     - 0, 1, 4, 3, 2, 5, 7, 8, 6, 9
-### DFS Algorithm
+## DFS Algorithm
 ```C++
 void DepthFirstSearch(Vertex* startVertex,
 	VertexVisitor& visitor) {

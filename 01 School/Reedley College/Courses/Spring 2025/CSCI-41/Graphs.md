@@ -6,8 +6,6 @@ tags:
   - ComputerScience/DataStructuresAndAlgorithms
 Date Created: 2025-05-05T09:44
 ---
-# Table of Contents
-- [[#Table of Contents]]
 - [[#20.1]]
     - [[#Introduction]]
     - [[#Graph Definitions and Notations]]

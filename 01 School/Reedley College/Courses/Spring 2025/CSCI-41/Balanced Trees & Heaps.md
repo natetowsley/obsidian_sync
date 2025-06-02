@@ -6,7 +6,6 @@ tags:
   - ComputerScience/DataStructuresAndAlgorithms
 Date Created: 2025-04-21T13:05
 ---
-# Table of Contents
 - [[#Table of Contents]]
 - [[#14.1]]
     - [[#Motivation]]

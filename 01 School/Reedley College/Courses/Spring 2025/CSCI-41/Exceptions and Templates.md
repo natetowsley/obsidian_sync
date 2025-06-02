@@ -5,7 +5,6 @@ tags:
   - ComputerScience
 Date Created: 2025-01-20T09:43
 ---
-# Table of Contents
 - [[#Table of Contents]]
 - [[#16.2]]
     - [[#Function Templates]]

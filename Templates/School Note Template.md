@@ -3,6 +3,8 @@
 tags: 
 Date Created:
 ---
+```table-of-contents
+```
 ---
 
 ---

@@ -6,6 +6,8 @@ tags:
   - ComputerScience
 Date Created:
 ---
+```table-of-contents
+```
 ---
 # Purpose of a Computer Program
 - A computer program is a set of instructions that run on a computer or other digital device

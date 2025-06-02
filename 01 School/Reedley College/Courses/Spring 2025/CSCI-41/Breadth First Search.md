@@ -6,9 +6,10 @@ tags:
   - ComputerScience/DataStructuresAndAlgorithms
 Date Created:
 ---
-
+```table-of-contents
+```
 ---
-## Breadth First Traversal
+# Breadth First Traversal
 - **Breadth first traversal** of a graph
     - Similar to traversing a binary tree level by level
     - Nodes at each level are visited from left to right
@@ -19,7 +20,7 @@ Date Created:
 - Breadth-first ordering of vertices:
     - 0, 1, 3, 4, 2, 5, 7, 8, 6, 9
 ![[Pasted image 20250513191756.png]]
-### BFS Algorithm
+## BFS Algorithm
 ```C++
 void BreadthFirstSearch (Vertex* startVertex, 
 	VertexVisitor& visitor) {
