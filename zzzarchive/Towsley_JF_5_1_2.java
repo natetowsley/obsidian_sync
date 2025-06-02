@@ -31,8 +31,10 @@ public class Towsley_JF_5_1_2 {
 			break;
 		default:
 			System.out.println("Invalid operator");
+			in.close();
 			return;
 		}
 		System.out.println(num1 + " " + op + " " + num2 + " = " + answer);
+		in.close();
 	}
 }

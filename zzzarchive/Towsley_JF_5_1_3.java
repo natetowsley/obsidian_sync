@@ -35,5 +35,6 @@ public class Towsley_JF_5_1_3 {
 		default:
 			System.out.println("Invalid Planet");
 		}
+		in.close();
 	}
 }
