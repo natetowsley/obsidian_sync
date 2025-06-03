@@ -11,7 +11,7 @@ Date Created:
 ---
 # Relational Operators
 - Java has six relational operators used to test primitive or literal numerical values
-- Relational operators are used to evaluate if-else and loop ocnditions
+- Relational operators are used to evaluate if-else and loop conditions
 
 | **Relational Operator** | **Definition**           |
 | ----------------------- | ------------------------ |
