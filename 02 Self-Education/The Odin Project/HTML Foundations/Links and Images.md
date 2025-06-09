@@ -1,7 +1,7 @@
 ---
 tags:
   - ComputerScience
-  - ComputerScience/Java
+  - ComputerScience/HTML
 Date Created: 2025-06-06
 ---
 ```table-of-contents
