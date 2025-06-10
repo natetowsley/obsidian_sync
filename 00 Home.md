@@ -16,4 +16,3 @@
 ---
 
 # Current Assignments
-![[Towsley_JF_6_4.java]]
