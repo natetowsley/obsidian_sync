@@ -70,7 +70,11 @@ public void setMyCompany(String s) {
 	this.myCompany = s;
 } //end method myCompany
 ```
-### Static Variable Example (SLIDE 12)
+### Static Variable Example
+- Create a class called Turtle that contains a variable named food
+	- This variable is static since all of our turtles eat the same food
+	- The Turtle class will have on more variable named age
+	- Since each turtle is a different age, it is best to make this variable a 
 ---
 # References
 1. 
