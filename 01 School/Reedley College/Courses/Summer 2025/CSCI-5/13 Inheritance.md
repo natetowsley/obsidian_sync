@@ -177,7 +177,321 @@ class.toString();
 | `private`           | Only to other methods within the class itself                                                     |
 | `protected`         | All subclasses and all classes in the same package                                                |
 | "default"           | Any class in the package<br>Actually when no keyword is specified<br>The word default is NOT used |
-## Declaring Access Modifiers (SLIDE 36)
+## Declaring Access Modifiers
+- The general rule for declaring access modifiers is that any data you want to protect from being altered by other classes, or data that is sensitive, should be declared private
+- This includes variables
+- Methods are generally declared as public so other classes can use them
+- However, methods can be declared private when they are meant to be used only by the class itself
+### Declaring Access Modifiers Example
+- If the Shape class contained data for color, the data in this class should be private
+```java
+public class Shape {
+	private String color;
+
+	public Shape(String color) {
+		this.color = color;
+	}// end constructor method
+}// end class Shape
+```
+
+# Member Access
+- Use the keyword private to hide data that only the class should be able to change (This is the recommended access modifier)
+- If access to the data is needed, then a getter method should be written to achieve this
+- If private variables need to be (or are allowed to be) changed, then a setter method should be written
+```java
+public class Shape {
+	private String color;
+
+	public Shape(String color) {
+		this.color = color;
+	}// end constructor method
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+}// end class Shape
+```
+## Use Public or Protected to Access Data?
+- If we wanted the ability to alter the Shape's variable color from outside the Shape class code, we could set the String variable color to be public or protected
+- However, it is recommended that class variables are declared as private
+```java
+public class Shape {
+	protected String color;
+}// end class shape
+```
+
+```java
+public class Shape {
+	public String color;
+}// end class shape
+```
+## Changing the Color
+- If the variable is declared as public, code that extends or creates a Shape object could change the color without using an accessor method like setColor()
+```java
+/*example for extending the shapr class, then changing the color*/
+super.color = "Blue";
+
+/*example for creating a Shape object and changing the color*/
+Shape s1 = new Shape();
+s1.color = "Blue";
+```
+
+# Member Access and Inheritance
+- How do these access modifiers affect inheritance?
+- With encapsulation, even subclasses cannot access private methods and variables
+- public and protected modifiers provide access to superclass methods and variables
+
+| **Access Modifier** | **Accessed by:**                                                                         |
+| ------------------- | ---------------------------------------------------------------------------------------- |
+| `public`            | All classes                                                                              |
+| `private`           | Only the class itself                                                                    |
+| `protected`         | All subclasses and all classes in the same package                                       |
+| "default"           | If no keyword is specified, member variables can be accessed by any class in the package |
+## Extending the Shape Class
+- Since Shape is not a specific class, we can extend it by creating more specific classes, such as, Rectangle and Square
+- We will begin by creating a Rectangle class that extends the Shape class
+## Inheriting Constructors
+- Although a subclass inherits all of the methods and fields from a parent class, it does not inherit constructors
+- You can:
+	- Write your own constructor or constructors
+	- Use the default constructor
+		- If you do not declare a constructor, a default no-argument constructor is provided for you
+		- If you declare your own constructor, the default constructor is no longer provided
+### Using the Keyword Super in a Constructor
+- When creating a Rectangle object, you will need to set the color of the Rectangle
+- If the variable color is private in the Shape superclass, how do you set it?
+- To construct an instance of a subclass, it is often easiest to call the constructor of the parent class
+- The `super` keyword is used to call a parent's constructor
+- It must be the first statement of the constructor
+- If it is not provided, a default call to super() is implicitly inserted for you
+- The `super` keyword may also be used to invoke a parent's method or to access a parent's (non-private) field
+```java
+public class Rectangle extends Shape {
+	private int length;
+	private int width;
+
+	//constructor
+	public Rectangle(String color, int length, int width) {
+		super(color);
+		this.length = length;
+		this.width = width;
+	}// end constructor
+}//end class Rectangle
+```
+### Adding Methods for the Rectangle Class
+- Rectangle methods that would be useful include:
+```java
+public int getWidth() {
+	return width;
+}//end method getWidth
+
+public void setWidth(int width) {
+	this.width = width;
+}//end methods setWidth
+
+public int getLength() {
+	return length;
+}//end method getLength
+
+public void setLength(int length) {
+	this.length = length;
+}//end method setLength
+
+public int getArea() {
+	return length * width;
+}//end method getArea
+```
+### Rectangle Class Methods
+- Since Square is a type of Rectangle, or extends the Rectangle class, it will inherit all of the methods from the Rectangle superclass:
+```java
+public int getWidth()
+public void setWidth(int width)
+public int getLength()
+public void setLength(int length)
+public int getArea()
+```
+### Set Up the Class
+- This code sets up the class
+- Use the keyword `extends` to inherit the methods from Rectangle
+```java
+public class Square extends Rectangle {
+	
+}//end class Square
+```
+### Write the Constructor
+- To write the constructor, consider what values need to be initialized
+- If we use the Rectangle super constructor, we need to pass it the values: String color, int length, and int width
+- Our Square constructor requires these as parameters if we want to call the super constructor
+```java
+public class Square extends Rectangle {
+	public Square(String color, int length, int width) {
+	
+	}//end constructor
+}//end class Square
+```
+- Aren't length and width equal for a square?
+### Size Parameter
+- Although Squares are a type of Rectangle, they have a unique property such that length = width
+- Accommodate this by only requiring one size parameter that sets both the width and length values
+```java
+public class Square extends Rectangle {
+	public Square(String color, int size) {
+		super(color, size, size);
+	}//end constructor
+}//end class Square
+```
+### Unique Variables for the Subclass
+- What about unique variables that apply only to Squares and not Rectangles?
+- For example, a feature that tells us whether or not to fill in a Square
+- Add a boolean value in the parameters list to add this unique variable for the Square class:
+```java
+public class Square extends Rectangle {
+	private boolean isFilled;
+	public Square(String color, int size, boolean isFilled) {
+		super(color, size, size);
+		this.isFilled = isFilled;
+	}//end constructor
+}//end class Square
+```
+### Customize Methods
+- Because a Square has the same values for length and width, we want to customize the methods setWidth(int width) and setLength(int length) so that both are updated when the method is called
+- Use the keyword `super` to call the superclass's methods setLength() and setWidth() and set them both to the parameter value passed to the method
+```java
+public void setWidth(int width) {
+	super.setLength(width);
+	super.setWidth(width);
+}//end method setWidth
+```
+### Square Subclass
+- The final product will look like the following:
+```java
+public class Square extends Rectangle {
+	private boolean isFilled;
+
+	public Square(String color, int size, boolean isFilled) {
+		super(color, size, size);
+		this.isFilled = isFilled;
+	}//end constructor
+
+	public void setLength(int length) {
+		super.setLength(length);
+		super.setWidth(length);
+	}//end method setLength
+	public void setWidth(int width) {
+		super.setLength(width);
+		super.setWidth(width);
+	}//end method setWidth
+	public boolean getIsFilled() {
+		return isFilled;
+	}//end method getIsFilled
+}//end class Square
+```
+## Rectangle Subclass
+- The final product will look like the following:
+```java
+public class Rectangle extends Shape {
+	private int length;
+	private int width;
+
+	//constructor
+	public Rectangle(String color, int length, int width) {
+		super(color);
+		this.length = legnth;
+		this.width = width;
+	}//end constructor
+
+	public int getWidth() {
+		return width;
+	}//end method getWidth
+	public void setWidth(int width) {
+		this.width = width;
+	}//end method setWidth
+	public int getLength() {
+		return length;
+	}//end method getLength
+	public void setLength(int length) {
+		this.length = length;
+	}//end method setLength
+	public int getArea() {
+		return length * width;
+	}//end method getArea
+}//end class Rectangle
+```
+
+# Shape Class
+```java
+public class Shape {
+	private String color; //the color of the Shape
+
+	public Shape(String color) {
+		this.color = color;
+	}//end constructor method
+
+	//Method which returns the color
+	public String getColor() {
+		return color;
+	}//end method getColor
+
+	public void setColor(String color) {
+		this.color = color;
+	}//end method setColor
+}//end class Shape
+```
+
+# Test Class
+```java
+package shapes;
+
+import java.awt.Color;
+
+public class ShapeDriver {
+	public static void main(String[] args) {
+		Square sq1 = new Square("Black", 5, true);
+		Rectangle rec1 = new Rectangle("Red", 5, 3);
+		
+		System.out.println("The area of the rectangle is: " + rec1.getArea());
+		System.out.println("The area of the square is: " + sq1.getArea());
+		System.out.println("The square is " + sq1.getIsFilled()?"filled":"not filled"));
+	}//end method main
+}//end class ShapeDriver
+```
+
+# Inheritance and Applets
+- Java applets are another example of using inheritance
+- A Java applet is a web-based Java program that can be embedded into a web browser
+- The class Applet can be extended to create special applets using some of the core methods in the Applet class
+## Java Documentation for Applet Class
+- Visit the Java Documentation for the Applet class to learn more
+- For all documentation, visit:
+> http://docs.oracle.com/javase/8/docs/api/
+- For just the class Applet's documentation, visit:
+>http://docs.oracle.com/javase/8/docs/api/java/applet/Applet.html
+## Creating Applets
+- To create an applet, you can borrow all of the core methods in the Applet class and customize these methods to suit the particular needs of you applet
+- For example, to make an applet that draws Shapes, start by setting up the inheritance with extends:
+```java
+public class DrawShapes extends Applet {
+	...
+}//end class DrawShapes
+```
+- Now our applet class DrawShapes will inherit methods from Applet that we can customize to build the applet
+## Applet Example
+```java
+import java.applet.Applet;
+import java.awt.Graphics;
+import java.awt.Graphis2D;
+import java.awt.Rectangle;
+
+public class RectangleApplet extends Applet {
+	public void paint(Graphics g) {
+		Graphics2D g2 = (Graphics2D)g;
+		Rectangle testRectangle = new Rectangle(5, 10, 20, 30);
+		g2.draw(testRectangle);
+	}//end method paint
+}//end class RectangleApplet
+```
 ---
 # References
-1. 
+1. [[10 Classes, Objects, and Methods]]
