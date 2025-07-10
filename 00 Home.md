@@ -31,4 +31,6 @@ banner-display: cover
 > [!important] 📅 **[Calendar](https://calendar.google.com/calendar/u/0/r)**
 
 # Current Assignments
-![[Towsley_JF_7_4_3.java]]![[Person.java]]![[Towsley_JF_7_4_5.java]]
+![[Product.java]]
+
+![[ProductTester.java]]
