@@ -31,6 +31,6 @@ banner-display: cover
 > [!important] 📅 **[Calendar](https://calendar.google.com/calendar/u/0/r)**
 
 # Current Assignments
-![[Product 1.java]]
+![[Product 2.java]]
 
-![[ProductTester 1.java]]
+![[ProductTester 2.java]]
