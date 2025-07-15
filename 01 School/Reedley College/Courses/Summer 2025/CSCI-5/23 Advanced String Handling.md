@@ -78,7 +78,121 @@ for(int i = str.length()-1; i >= 0; i--) {
 - Store the parsed components
 - Update the String 
 - Manipulate the parsed components as desired
-### Steps to Parsing a String with a For Loop (SLIDE 20)
+### Steps to Parsing a String with a For Loop
+- First a String is required that can be parsed
+```java
+String str = "Parse this String";
+```
+- A data structure must be created to store the individual sections of the parsed String, as the number of substrings is unknown an ArrayList is ideal
+```java
+ArrayList<String> words = new ArrayList<String>();
+```
+- A while loop is used to work through that String until all the substrings have been removed
+```java
+while(str.length() > 0) {
+	//parsing code goes here
+}//end while
+```
+- Within the while loop, a nested for loop is required that will search through the String until the parse character or the end of the String is found
+```java
+while(str.length() > 0) {
+	for(int i = 0; i < str.length(); i++) {
+		if(i == str.length()-1) {
+			words.add(str.substring(0));
+			str = "";
+			break;
+		}
+		else if(str.charAt(i) == ' ') {
+			words.add(str.substring(0, i));
+			str = str.substring(i + 1);
+			break;
+		}//endif
+	}//endfor
+}//endwhile
+```
+- The contents of the ArrayList can then be displayed to screen using an enhanced for loop
+```java
+for(String s : words)
+	System.out.print(s + ' ');
+//end for
+```
+- You could then use the ArrayList methods to:
+	- Count the number of elements created in the parse
+	- Sort the elements into their natural order
+	- Display them in any order you choose
+- The collection methods that you should use are:
+```java
+System.out.println("\nThere are " + words.size()
+					+ " words in the original String");
+Collections.sort(words);
+System.out.println(words);
+```
+- Output should be as follows
+![[Screenshot 2025-07-14 at 8.31.30 AM.png|450]]
+## Parsing a String: Split
+- Split is a method inside the String class that parses a String at specified characters, or if unspecified, spaces
+- It returns an array of Strings that contains the Substrings (words) that parsing the String gives
+- How to call split on a String:
+```java
+String sentence = "This is my sentence";
+String[] words = sentence.split(" ");
+//words will look like {This,is,my,sentence}
+String[] tokens = sentence.split("i");
+//tokens will look like this {Th,s my sentence}
+for(String token : tokens)
+	System.out.print(token + ", ");
+```
+### Parsing a String: Split (Using Multiple Characters)
+- It is also possible to split a String by more than one specified character if you use brackets around the characters
+- Here is an example:
+```java
+String sentence = "This is my sentence";
+
+String[] tokens = sentence.split("[ie]");
+//tokens will look like this {Th,s ,s my s,nt,nc}
+/*each token will be separated by an occurence of an i or any 
+occurrence of an e*/
+```
+
+# Calling Methods on a String
+- These methods are beneficial when working with problems that involve the manipulation of Strings
+
+| **String Method**          | **Description**                                                                                                                                 |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `contains(CharSequence s)` | Returns true if the String contains s                                                                                                           |
+| `indexOf(char ch)`         | Returns the index within this String of the furst occurrence of the specified character and -1 if the character is not in the String            |
+| `indexOf(String str)`      | Returns the index within this String of the first occurrence of the specified Substring and -1 if the String does not contain the Substring str |
+
+# StringBuilder vs String
+- StringBuilder is a class that represents a String-like object
+- It is made of a sequence of characters, like a String
+- The difference between String and StringBuilder objects is that:
+	- StringBuilder includes methods that can modify the StringBuilder object once it has been created by appending, removing, replacing, or inserting characters
+	- Once created, a String is immutable (cannot be changed) it is replaced by a new String instead
+	- It is not possible to make modifications to a String
+	- Methods used to "modify" a String actually create a new String in memory with the specified changes, they do not modify the old one
+	- This is why StringBuilders are much faster to work with: they can be modified and do not require you to create a new String with each modification
+- These are some of the important differences between a StringBuilder and a String object
+
+| **StringBuilder**                                                      | **String**                                                              |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Changeable                                                             | Immutable                                                               |
+| Easier insertion                                                       | Easier concatenation                                                    |
+| Can be more difficult to use, especially when using regular expression | Visually simpler to use, similar to primitive types rather than objects |
+| Use when memory needs to be conserved                                  | Use with simpler programs where memory is not a concern                 |
+## StringBuilder and String Shared Methods
+- StringBuilder shares many of the same methods with String, including but not limited to:
+
+| **String Method**               | **Description**                                                                                                                      |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `length()`                      | Returns the number of characters in the String                                                                                       |
+| `charAt(int i)`                 | Returns the character at index i                                                                                                     |
+| `substring(int start)`          | Returns part of the String from index start to the end of the String                                                                 |
+| `substring(int start, int end)` | Returns part of the String from index start to index end, not including the character at index end                                   |
+| `indexOf(char ch)`              | Returns the index within this String of the first occurrence of the specified character and -1 if the character is not in the String |
+# StringBuilder Methods (SLIDE 38)
+## Example
+- 
 ---
 # References
 1. 
