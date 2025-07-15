@@ -190,9 +190,24 @@ occurrence of an e*/
 | `substring(int start)`          | Returns part of the String from index start to the end of the String                                                                 |
 | `substring(int start, int end)` | Returns part of the String from index start to index end, not including the character at index end                                   |
 | `indexOf(char ch)`              | Returns the index within this String of the first occurrence of the specified character and -1 if the character is not in the String |
-# StringBuilder Methods (SLIDE 38)
-## Example
-- 
+# StringBuilder Methods
+- StringBuilder has methods specific to its class:
+
+| **Method**                                | **Description**                                                                                                               |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `append(Type t)`                          | Is compatible with any Java type or object, appends the String representation of the Type argument to the end of the sequence |
+| `delete(int start, int end)`              | Removes the character sequence included in the Substring from start to end                                                    |
+| `insert(int offset, Type t)`              | Is compatible with any Java type, inserts the String representation of Type argument into the sequence                        |
+| `replace(int start, int end, String str)` | Replaces the characters in a Substring of this sequence with characters instr                                                 |
+| `reverse()`                               | Causes this character sequence to be replaced by the reverse of the sequence                                                  |
+# Methods to Search Using a StringBuilder
+
+| **Method**                           | **Description**                                                                       |
+| ------------------------------------ | ------------------------------------------------------------------------------------- |
+| `charAt(int index)`                  | Returns the character at index                                                        |
+| `indexOf(String str)`                | Returns index of first occurrence of str or minus one (-1) if the String is not found |
+| `indexOf(String str, int fromIndex)` | Returns index of first occurrence of str or minus one (-1) if the String is not found |
+
 ---
 # References
 1. 
