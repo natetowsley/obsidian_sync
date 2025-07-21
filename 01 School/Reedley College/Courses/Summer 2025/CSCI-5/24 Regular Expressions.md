@@ -150,7 +150,59 @@ Pattern p = Pattern.compile("[A-F]{5,}.*");
 ```
 - The compile method returns a Pattern as defined by the regular expression given in the parameter
 
-# Matcher (SLIDE 30)
+# Matcher
+- A matcher is a class in the java.util.regex package that stores a possible match between a Pattern and a String
+```java
+import java.util.regex.Matcher;
+```
+- A Matcher is initialized as follows:
+```java
+Matcher match = patternName.matcher(StringName);
+```
+- The matcher method returns a Matcher object
+- This code returns true if the regular expression given in the Pattern patternName declaration matches the String StringName
+```java
+return match.matches();
+```
+## Benefits to Using Pattern and Matcher
+- This seems like a very complex way of completing the same task as the String method matches
+- Although that may be true, there are benefits to using a Pattern and Matcher such as:
+	- Capturing groups of Strings and pulling them out, allowing to keep specific formats for dates or other specific formats without having to create special classes for them
+	- Matches has a find() method that allows for detection of multiple instances of a pattern within the same String
+
+# Regular Expressions and Groups
+- Segments of regular expressions can be grouped using parentheses, opening groups with `(` and closing it with `)`
+- These groups can later be accessed with the Matcher method group (groupNumber)
+- For example:
+	- consider reading in a sequence of dates, Strings in the format "DD/MM/YYYY", and printing out each date date in the format
+	- Using groups would make this task quite simple
+
+## Matcher.find()
+- Matcher's find method will return true if the defined Pattern exists as a Substring of the String of the Matcher
+- For example, if we had a pattern defined by the regular expression `"[0,9]"`, as long as we give the Matcher a String that contains at least one digit somewhere in the String, calling find() on this, Matcher will return true
+![[Pasted image 20250721125440.png|400]]
+## Parsing a String with Regular Expressions
+- Recall the String method split() introduced earlier in the lesson, which splits a String by spaces and returns the split Strings in an array of Strings
+	- The split method has an optional parameter, a regular expression that describes where the operator wishes to split the String
+	- For example, to split the String at any sequence of one or more digits, the code we could write would look something like this:
+```java
+String[] tokens = str.split("[0-9]+");
+```
+
+## Replacing with Regular Expressions
+- Other methods that could be used are replaceFirst() and split() that can be both be researched through the Java API
+	- String replaceFirst(String regex, String replacement) Replaces the first substring of this string that matches the given regular expression with the given replacement
+	- String[] split(String regex) Splits this string around matches of the given regular expression
+	- String[] split(String regex, int limit) Splits this string around matches of the given regular expression
+## Replacing Using a Matcher
+- `ReplaceAll` - For use with a matcher
+- This method works the same if called by a Matcher rather than a String
+- However, it does not require the regular expression
+	- It will simply replace any matches of the Pattern you gave it when you initialized that Matcher
+	- The method example shown below results in a replacement of all matches identified by Matcher with the String "abc"
+```java
+MatcherName.replaceAll("abc");
+```
 ---
 # References
 1. 
