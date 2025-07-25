@@ -171,8 +171,51 @@ import java.awt.color.*;
 	5. Go to your save location and double click the JAR file
 	6. Your program should run
 
-# Creating a JavaFX JAR File (SLIDE 30)
+# Creating a JavaFX JAR File
 - Open JavaFX_Tutorial.pdf for instructions to complete the tasks for creating a JavaFX JAR file
+- You will require the JavaFX_Graphics.zip file to complete the tutorial
+- Complete all the tasks in the tutorial
+	- Download and install JavaFX in Eclipse
+	- Create a JavaFX application
+	- Test the application
+	- Create a Runnable JAR file for the application
+	- Run the application outside the development environment
+
+# Two Tier and Three Tier Architecture
+- Up to this point, you have written programs that are one tier architecture systems
+- One tier architecture systems:
+	- Run on one computer at a time
+	- Are more complex to program as you add layers and functionality
+- Functionality types may include:
+	- Server and client processes
+	- Database storage and retrieval
+## Tier Architecture
+- The concept of tiers provides a convenient way to group different classes of computer architecture
+- If you application is running on a single computer, it has one tier architecture
+- If your application is running on two computers, such as a typical web server application that runs on a Web browser (client) and a Web server, then it has two tiers
+## Two and Three Tier Systems
+- In a two tier system, you have a client program and a server program
+- The server responds to requests from many different clients
+- The clients usually initiate the requests for information from a single server
+- A three tier application adds a third program to the mix, such as a database, in which the server stores its data
+### Two Tier Architecture Deployment
+- A two tier system usually consists of a client and a server program
+- The server program runs on a web server
+- The client programs could be applets running via html webpages
+- Applets would communicate with the server program to get instructions
+### Two Tier Architecture Deployment Example
+- An example of two tier architecture is a two player chess game
+- Each user would access the client application, but a server application would be needed to handle the communications between the clients and determine game play
+- To deploy such a system one would need to set the server application to auto start on the web server and have the Java applet communicate with the server via http protocols
+### Three Tier Architecture Deployment Example
+- To turn the chess game into a three tier system, we could add a database to store the results of a chess game for later rankings and retrieval of user information
+- Java uses JDBC connectivity to communicate with a variety of databases
+- To deploy this implementation:
+	- A database need to run on a server
+	- The Java server application would need to have connectivity using the JDBC driver and appropriate ports to access the database
+- Using a database as the main storage for data is now the most common way of storing and retrieving information within applications
+- The method of doing this has been greatly simplified over the years and it is now a fairly straightforward procedure to connect you application to a database back end
+- This will be explored in more detail in the next section
 ---
 # References
 1. 
