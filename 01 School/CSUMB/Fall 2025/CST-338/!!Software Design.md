@@ -2,7 +2,7 @@
 Course code: CST-338
 Prof:
   - Dongji Feng
-Contact:
+Contact: dfeng@csumb.edu
 Year/Semester:
   - Fall 2025
 ---
