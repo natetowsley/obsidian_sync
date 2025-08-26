@@ -7,6 +7,7 @@ Year/Semester:
   - Fall 2025
 ---
 ---
+**Slack**: @prof_paige
 ## Notes
 ```dataview
 LIST
