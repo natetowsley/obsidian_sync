@@ -11,6 +11,6 @@ Year/Semester:
 ## Notes
 ```dataview
 LIST
-from "obsidian_sync/01 School/CSUMB/"
+from "obsidian_sync/01 School/CSUMB/Fall 2025/CST-336"
 where file.name != this.file.name
 ```
