@@ -5,6 +5,8 @@ Prof:
 Contact: dfeng@csumb.edu
 Year/Semester:
   - Fall 2025
+TA: Shannyn Cabi
+TA Contact: scabi@csumb.edu
 ---
 ---
 ## Notes
