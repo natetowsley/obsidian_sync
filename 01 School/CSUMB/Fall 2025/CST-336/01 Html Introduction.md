@@ -101,7 +101,9 @@ Date Created: 2025-08-23
 </body>
 </html>
 ```
-
+- `<meta charset="UTF-8">` allows the webpage to understand any character you can think of (Chinese, Spanish, math, etc.
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">` allows the site to resize and be compatible with mobile devices more easily
+- `<title>Document</title>` will set the name of the tab at the top of the browser to "Document"
 ## Structural Elements: `br`, `p`
 - Line breaks must be explicitly created by using the `br` element: `<br>`
 	- It does not have a closing tag
