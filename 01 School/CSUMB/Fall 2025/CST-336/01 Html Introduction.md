@@ -10,6 +10,7 @@ Date Created: 2025-08-23
 ```
 ---
 # HTML Definition
+>Content & Structure
 - HTML stands for **Hyper Text Markup Language**
 - It is a "markup language" for creating web pages
 	- A "markup language" is a computer language that uses special characters or tags to structure and display content
