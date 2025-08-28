@@ -54,6 +54,7 @@ public class VehicleTester{
 - Good programming practice dictates that classes should have a default constructor
 - Constructors which contain parameters typically initialize the private variables of the class to values passed in by the user
 - Constructors do not have a return type (void)
+- Java has garbage collection, and therefor has no destructors
 ## Default Constructor
 - Good programming practice dictates that classes should have a default constructor
 - A default constructor:
