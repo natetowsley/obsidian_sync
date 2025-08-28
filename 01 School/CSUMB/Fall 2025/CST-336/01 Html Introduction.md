@@ -122,7 +122,7 @@ Date Created: 2025-08-23
 	- nav
 	- main
 	- article
-	- figure
+	- figure (often surrounds img tag when using images)
 	- aside
 	- section
 	- footer
@@ -140,18 +140,19 @@ Date Created: 2025-08-23
 - Syntax:
 ```html
 <table>
-	<tr>
-		<th> Movie   </th>
+	<tr> <!-- table row -->
+		<th> Movie   </th> <!-- table heading -->
 		<th> Director </th>
 	</tr>
 	<tr>
-		<td> Titanic   </td>
+		<td> Titanic   </td> <!-- table data -->
 		<td> J. Cameron </td>
 	</tr>
 </table>
 ```
 
 # Div Element
+>Effects not seen until CSS applied
 - Defines a **div**ision or container (box) in a web page
 - It's usually used with CSS to style a group of elements
 - It's used to create a multi- column layout
