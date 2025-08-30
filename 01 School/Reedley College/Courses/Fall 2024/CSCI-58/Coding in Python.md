@@ -953,12 +953,12 @@ print(NetPrice(500)) \#Function will run with default parameters
 - Non-default arguments should follow default arguments
     - `def count(start = 0, end)` causes an error if `count(10)`
     - `def count(end, start = 0)` works with `count(10)`
-### *args and **kwargs
+### *args* and **kwargs**
 - ***args:** Allow you to pass multiple non-key arguments to a function
     - Places arguments into a tuple that can be used within function
-- ****kwargs:** allows you to pass multiple keywork-arguments
+- ***kwargs:*** allows you to pass multiple keywork-arguments
     - 4:34 bro code……….
-- The ‘*’ is the unpacking operator
+- The `*` is the unpacking operator
 ### Docstrings
 - Docstrings are documentation generally written for module, class, and method definitions
 - One-line docstrings are for really obvious cases
@@ -1123,12 +1123,12 @@ def circumference(radius):
 - import camelcase
 - to uninstall: Manage packages, uninstall
 # Procedural Programming
-- Procedural Programming: Writing programs made of functions tht perform specific tasks
+- Procedural Programming: Writing programs made of functions that perform specific tasks
     - Procedures typically operate on data items that are separate from the procedures
     - Data items commonly passed from one procedure to another
     - Focus: To create procedures that operate on the program’s data
 # Object Oriented Programming
-- Object-Oriented programming: focusessd on creating objects
+- Object-Oriented programming: focused on creating objects
 - Object: entity that contains data and procedures
     - Data is known as data attributes and procedures are known as methods
         - Methods perform operations on the data attributes

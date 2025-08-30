@@ -95,7 +95,7 @@ print(increment_list.__doc__)
 print(increment_list([1, 2, 3]))
 ```
 ### Various Function Calls
-- Functions can be caled in various ways
+- Functions can be called in various ways
 - Consider the following code:
 ```Python
 def cat(food, state='still hungry', action='meow', breed='Siamese'):
