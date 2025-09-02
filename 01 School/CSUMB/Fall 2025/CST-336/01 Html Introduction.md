@@ -167,3 +167,7 @@ Date Created: 2025-08-23
 ---
 # References
 1. [[HTML Boilerplate]]
+2. [[Elements and Tags]]
+3. [[Links and Images]]
+4. [[Lists]]
+5. [[Working with Text]]
