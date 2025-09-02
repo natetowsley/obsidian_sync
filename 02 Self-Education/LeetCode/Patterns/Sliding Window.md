@@ -68,7 +68,7 @@ return min_or_max_result
 ```
 
 >[Dynamic Sliding Window Easy Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-# [CONTINUE AT 4:29](https://www.youtube.com/watch?v=y2d0VHdvfdc)
+# [CONTINUE AT 4:04](https://www.youtube.com/watch?v=y2d0VHdvfdc)
 ---
 # References
 1. 
