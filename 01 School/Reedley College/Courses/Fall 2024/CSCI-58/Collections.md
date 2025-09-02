@@ -41,7 +41,7 @@ for fruit in fruits:
 |(“x” in collection)|Returns True if x is in collection, False if not|
 ## Lists `[]`
 - Ordered and changeable. Duplicates OK
-- Elements in a list must be seperated by comma and all enclosed with square brackets `[]`
+- Elements in a list must be separated by comma and all enclosed with square brackets `[]`
 - To access an element at specific value of list, use index operator with index of desired element
     - First value is at index 0
     - `[start: end: step]`
