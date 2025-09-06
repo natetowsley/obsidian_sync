@@ -3,7 +3,8 @@ Course code: CST-336
 Prof:
   - Miguel Lara
   - Luma Rinaldi
-Contact: 
+Office Hours: Fridays 2pm - 4pm
+Contact:
 Year/Semester:
   - Fall 2025
 ---
