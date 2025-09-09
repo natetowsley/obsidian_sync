@@ -4,7 +4,7 @@ Prof:
   - Miguel Lara
   - Luma Rinaldi
 Office Hours: Fridays 2pm - 4pm
-Contact:
+Contact: milara@csumb.edu
 Year/Semester:
   - Fall 2025
 ---
