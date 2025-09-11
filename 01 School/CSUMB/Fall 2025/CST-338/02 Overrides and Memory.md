@@ -70,15 +70,6 @@ MyObject o1 = new MyObject();
 MyObjecet o2 = o1;
 // o1 == o2 -> true
 ```
-
-# @Override
-- @Override is an **annotation**
-	- like @Test
-- It is telling the interpreter that we are implementing out own version of an inherited method
-- Inheritance refers to two things
-	- Extending a class
-	- Implementing an interface
-
 # New UML
 - Arrows in UML diagrams point to parent classes of some class
 	- Solid means extends
@@ -91,7 +82,38 @@ MyObjecet o2 = o1;
 - Additionally, all objects can be grouped by their parent
 - Bottom Line:
 	- Inheritance lets use re-use code in a meaningful way
-- 
+
+# @Override
+- @Override is an **annotation**
+	- like @Test
+- It is telling the interpreter that we are implementing out own version of an inherited method
+- Inheritance refers to two things
+	- Extending a class
+	- Implementing an interface
+
+# Signature of a Method
+- The signature of a method are the identifying marks, the unique properties of the method
+![[Pasted image 20250911100654.png|400]]
+- The signature is determined by the **identifier** and the parameters
+- The compiler won't be able to know which function below to use because the signature's are the same
+![[Pasted image 20250911100747.png|400]]
+## Equals
+- When overriding equals
+	- It is necessary to override hashcode as well
+- The equals method REQUIRES hashcode
+	- the "contract" inherited from Object requires it
+- We can do this by hand or we can autogenerate it
+	- Right click -> generate... equals and hashcode
+### Equals and Hashcode
+```java
+@Override
+public boolean equals(Object o) {
+	if (this == o) return true;
+	if (o == null || getCLass() != o.getClass()) return false;
+	MyObject myObject = (MyObject) o;
+	return name.equals(myObject.name) && count.equals(myObject.count);
+}
+```
 ---
 # References
 1. 
