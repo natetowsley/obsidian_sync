@@ -96,7 +96,7 @@ if (document.querySelector("#chbx").checked) {
 
 # Creating Input Elements with JS
 - There are two ways to create HTML elements dynamically with JS
-![[Pasted image 20250916171151.png|550]]
+![[Pasted image 20250916171151.png|600]]
 ---
 # References
 1. 
