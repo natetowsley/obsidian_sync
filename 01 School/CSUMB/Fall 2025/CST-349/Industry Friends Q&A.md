@@ -8,7 +8,7 @@ Date Created:
 ```
 ---
 # Questions
-## [Angel Bedolla-Alcantar](https://www.linkedin.com/in/angel-bedolla223/) 
+## [Angel Bedolla-Alcantar](https://www.linkedin.com/in/angel-bedolla223/)
 > SWE @ Uber, Twice SWE Intern @ Uber prior
 ##### You Interned at Uber twice before eventually getting your return offer, what actions did you take the first time around that led to you returning for that second internship?
 
