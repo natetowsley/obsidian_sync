@@ -8,7 +8,7 @@ content-start: 401
 banner-radius: 20
 banner-display: cover
 ---
-t> 🎓 **focus + intent = results**
+> 🎓 **focus + intent = results**
 ---
 
 >[!important] ID🪪
