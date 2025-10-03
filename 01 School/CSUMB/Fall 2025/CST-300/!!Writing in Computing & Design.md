@@ -8,6 +8,8 @@ Year/Semester:
 ---
 ---
 **Slack**: @prof_paige
+
+## Essay Outline/Sources![[CST 300 Essay.txt]]
 ## Notes
 ```dataview
 LIST

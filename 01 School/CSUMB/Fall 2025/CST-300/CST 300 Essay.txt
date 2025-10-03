@@ -1,0 +1,10 @@
+CST 300 Essay
+- The widespread adoption of autonomous vehicles should be approached slowly and cautiously due to various concerns.
+
+Sources of Evidence
+- Safety Concerns
+	- https://spectrum.ieee.org/self-driving-cars-2662494269
+- Ethical Concerns (Trolley Problem)
+	- https://hai.stanford.edu/news/designing-ethical-self-driving-cars
+- Social/ Economic Concerns
+	- https://www.investopedia.com/articles/investing/090215/unintended-consequences-selfdriving-cars.asp
