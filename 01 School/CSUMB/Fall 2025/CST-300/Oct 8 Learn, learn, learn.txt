@@ -1,0 +1,23 @@
+Oct 8 Learn, learn, learn
+
+CONSUME
+
+Article 1: 8 Time Management Tips for Students
+https://summer.harvard.edu/blog/8-time-management-tips-for-students
+
+1. Use a calendar: My system already uses a calendar that i see everyday ✅
+2. Set reminders: I already set reminders for important events, need to do so more 🟨
+3. Scheduling: My days are scheduled hour by hour, though this gets thrown off by any plans not aligned with the schedule 🟨
+4. Tools: I don't use a specific planner, but have a notebook that provides me with a monthly overview ✅
+5. Note Taking: I take notes very often digitally, through obsidian, and keep multiple notebooks for things like habits and other reminders ✅
+6. Prioritize: I struggle to prioritize, and even space out my work. I tend to try to get all schoolwork done as soon as I can before I do anything else, which hasn't proven the best for retention or memorization ❌
+7. Make Time to Have Fun/ For Yourself: I don't do too good of a job at this. At first I intended to schedule it out, but that quickly faded and time for myself just became any extra time I had after or between already scheduled blocks 🟨
+8. Find Support: I haven't found any support besides joining the programming team *CLUB* (not the team itself), because they create a sense of community and accountability. However besides that I would say I fail in this category ❌
+9. Being realistic has been fine, I do like the schedule when it is working, but flexibility is difficult. I went back home for the weekend and it became impossible to follow that schedule, so I either need to account for things like that in the schedule itself, or set it up so that I don't really have the same schedule when I go somewhere for multiple days 🟨
+
+CREATE
+
+- Adjusted my Google Calendar to fit better with current situation
+- Realized I need to be more active in adding/ changing events in my calendar day to day
+	- Currently I just leave as is and rely on remembering whatever I need to do that day
+- Will test out a slightly more reactive system, not trying to schedule so far out but scheduling more frequently, as to avoid mistaking scheduled straying from a "normal day" with failing to follow my plan

@@ -4,6 +4,7 @@
 tags:
   - ComputerScience
   - ComputerScience/Design
+  - ComputerScience/OOP
 Date Created:
 ---
 ```table-of-contents

@@ -5,7 +5,7 @@ Favorite: false
   - "[[!!Programming Concepts and Methodology II (C++)]]"
 ---
 Lecture 8: Inheritance & Abstract Classes
-###### tags: #ComputerScience #ComputerScience/DataStructuresAndAlgorithms 
+###### tags: #ComputerScience #ComputerScience/DataStructuresAndAlgorithms #ComputerScience/OOP 
 # Table of Contents
 - [[#Table of Contents]]
 - [[#15.1]]

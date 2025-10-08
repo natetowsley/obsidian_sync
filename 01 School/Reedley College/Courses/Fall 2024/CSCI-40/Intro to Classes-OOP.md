@@ -4,6 +4,7 @@ Favorite: false
 tags:
   - ComputerScience/Basics
   - ComputerScience
+  - ComputerScience/OOP
 📕 Courses:
   - "[[!!Programming Concepts and Methodology I (C++)]]"
 ---

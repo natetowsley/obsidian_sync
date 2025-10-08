@@ -4,6 +4,7 @@
 tags:
   - ComputerScience
   - ComputerScience/Java
+  - ComputerScience/OOP
 Date Created: 2025-06-23
 ---
 ```table-of-contents
