@@ -80,6 +80,11 @@ const xyz = require(`packageName`); //deprecated
 //instead, use
 const xyz = (await import(`packageName`)).default;
 ```
+- You cannot use import and require in the same program
+### How to import as
+```js
+const quotes = (await import('success-motivational-quotes')).default;
+```
 
 # Function Declaration vs Function Expression
 - Function Declarations
@@ -95,6 +100,7 @@ function function_name() {
 	- Order DOES matter
 	- Functions can be passed as parameters to other functions
 	- Allow for using "arrow" syntax
+	- Function expressions are not "hoisted"
 ```js
 const function_name = function() {
 
@@ -120,6 +126,7 @@ function timesTwo(params) {
 const timesTwo = params => params * 2;
 ```
 - Arrow functions inherit the value of the keyword 'this'
+- Parameters always need parenthesis unless only one parameter
 
 # Fetching Data from Web APIs
 - Use `node-fetch` package

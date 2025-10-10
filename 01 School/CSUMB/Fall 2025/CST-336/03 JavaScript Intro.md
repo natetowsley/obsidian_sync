@@ -99,6 +99,8 @@ function functionName(parameters*) {
 }
 ```
 - `*Parameters` and `arguments` are optional
+- Functions in JS are "hoisted" to the top of a file at compile time
+	- This means they can be written anywhere in a file
 
 # Document Object Model (DOM)
 - So far, we've displayed information in the console and in an Alert popup box
