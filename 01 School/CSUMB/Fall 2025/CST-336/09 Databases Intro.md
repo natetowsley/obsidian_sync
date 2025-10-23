@@ -106,6 +106,34 @@ Date Created:
 	- For example, the "department" - "employee" relationship is 1:M because one specific department can have multiple employees; however, one specific employee belongs to only one department at a given time
 		- The primary Key of the table of the "one' entity should be a Foreign Key in the table of the "many
 
+# SELECT: Data Retrieval
+## SELECT Statement
+- This statement is used to retrieve records from one or more tables
+- Its basic syntax is:
+```sql
+SELECT field_name, field_name2 FROM table_name WHERE expression;
+```
+- To retrieve ALL fields in the record use:
+```sql
+SELECT * FROM table_name
+```
+- If the `WHERE` clause is omitted, the query will retrieve ALL records. Otherwise, it will retrieve just the records that fulfill the WHERE expression
+- For instance, the following clause would retrieve all fields corresponding to female students
+```sql
+SELECT * FROM student WHERE gender = "Female";
+```
+## The LIKE Qualifier
+- The LIKE qualifier allows conducting searches in parts of the string
+- For example, let's suppose there is a table called "Movie"
+	- To get all the movie titles that end in the word "wind", we can use
+```sql
+SELECT * FROM movie WHERE movieTitle LIKE "%wind";
+```
+- The % symbol works as a wildcard character with the LIKE Qualifier
+- The following query will search for movie tables with the word "wind" anywhere within the title (not just at the end):
+```sql
+SELECT * FROM movie WHERE movieTitle LIKE "%wind%";
+```
 ---
 # References
 1. SELECT authorId, firstName FROM `authors` WHERE profession = 'Physicist';
