@@ -23,6 +23,7 @@ Date Created:
 	- There cannot be two primary keys with an identical value. Primary key examples: SSN, OtterID
 - **Foreign Key**: Primary key that is included in another table in order to relate both tables
 	- Having the SSN or OtterID in another table as a reference
+![[Pasted image 20251028160158.png]]
 ## Database Design Process
 1. **Determine the Purpose of the Database**
 	- Since a database is a collection of *related* tables, having a purpose helps determining what tables belong or do not belong in it
@@ -133,6 +134,23 @@ SELECT * FROM movie WHERE movieTitle LIKE "%wind";
 - The following query will search for movie tables with the word "wind" anywhere within the title (not just at the end):
 ```sql
 SELECT * FROM movie WHERE movieTitle LIKE "%wind%";
+```
+
+# SQL Joins
+- **Inner Join:** Returns the records that have a common value in **both** tables
+![[Pasted image 20251028160344.png|450]]
+```sql
+SELECT *
+FROM employee e
+INNER JOIN department d
+ON e.deptId = d.deptId
+```
+- **Natural Join:** Similar to the Inner Join, it returns the records that have a common value in **both** tables, however, the common fields must have the **exact same name**
+![[Pasted image 20251028160555.png|450]]
+```sql
+SELECT *
+FROM employee
+NATURAL JOIN department /*No need for the "ON" clause*/
 ```
 ---
 # References
