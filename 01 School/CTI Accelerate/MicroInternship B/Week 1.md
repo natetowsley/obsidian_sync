@@ -20,6 +20,16 @@ Date Created:
 		- Remote - Tunnels
 	- Container Tools (Docker and Podman support)
 - Installed Docker Desktop
+
+## VSCode Environment
+- VSCode must be opened through ubuntu
+	- In Ubuntu terminal, go to directory of cloned repo
+	- Once there run:
+```bash
+code .
+```
+- If successful, explorer in VSCode will read OED [WSL: Ubuntu]
+- Then rebuild in container
 ---
 # References
 1. 
