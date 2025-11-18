@@ -30,6 +30,8 @@ code .
 ```
 - If successful, explorer in VSCode will read OED [WSL: Ubuntu]
 - Then rebuild in container
+
+CURRENTLY AT Install and run OED in a terminal
 ---
 # References
 1. 
