@@ -13,3 +13,6 @@
 | CloudKitchens    | Engineering Intern        | Mountain View, CA                                  | Simplify                                                          | 1/9/2026         | ⏳          |
 | ZipRecruiter     | SWE Intern                | Santa Monica, CA                                   | Simplify                                                          | 1/9/2026         | ⏳          |
 | Snorkel AI       | SWE Intern                | San Francisco, CA                                  | Simplify                                                          | 1/9/2026         | ⏳          |
+| Inuit            | Frontend Engineer Intern  |                                                    | Jobright                                                          | 1/11/2026        | ⏳          |
+| Docusign         | SWE Intern                | Seattle, WA                                        | Jobright                                                          | 1/11/2026        | ⏳          |
+| Exiger           | SWE Intern                | McLean, VA, USA                                    | Simplify                                                          | 1/11/2026        | ⏳          |
