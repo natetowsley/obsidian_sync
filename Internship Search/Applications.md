@@ -16,3 +16,5 @@
 | Inuit            | Frontend Engineer Intern  |                                                    | Jobright                                                          | 1/11/2026        | ⏳          |
 | Docusign         | SWE Intern                | Seattle, WA                                        | Jobright                                                          | 1/11/2026        | ⏳          |
 | Exiger           | SWE Intern                | McLean, VA, USA                                    | Simplify                                                          | 1/11/2026        | ⏳          |
+| Microsoft        | SWE Intern                | Mountain View, CA                                  | Simplify                                                          | 1/12/2026        | ⏳          |
+| Typeface         | SWE Intern                | Palo Alto, CA                                      | Simplify                                                          | 1/12/2026        | ⏳          |
