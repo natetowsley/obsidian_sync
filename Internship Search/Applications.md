@@ -32,3 +32,4 @@
 | C3 AI                      | SWE Intern                       | Redwood City, CA                                   | LinkedIn                                                          | 1/14/2026        | ⏳          |
 | Hewlett Packard Enterprise | SWE Intern                       | Son Jose, CA                                       | LinkedIn                                                          | 1/14/2026        | ⏳          |
 | Palantir                   | SWE Intern                       | Palo Alto, CA                                      | LinkedIn                                                          | 1/14/2026        | ⏳          |
+| Intuitive                  | SWE Intern                       | Palo Alto, CA                                      | Handshake                                                         | 1/15/2026        | ⏳          |
