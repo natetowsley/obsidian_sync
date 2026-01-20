@@ -2,7 +2,7 @@
 Course code: CST-438
 Prof:
   - Drew Clinkenbeard
-Contact:
+Contact: dclinkenbeard@csumb.edu
 Year/Semester:
   - Spring 2026
 ---
