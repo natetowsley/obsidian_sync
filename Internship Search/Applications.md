@@ -37,3 +37,6 @@
 | Replit                     | SWE Intern                        | Foster City, CA                                    | Simplify                                                          | 1/17/2026        | ⏳          |
 | Pacific Fusion             | SWE Intern                        | San Leandro, CA                                    | Jobright                                                          | 1/17/2026        | ⏳          |
 | GoFundMe                   | Frontend Software Engineer Intern | San Francisco, CA                                  | Jobright                                                          | 1/17/2026        | ⏳          |
+| Veeva                      | Intern SWE                        | Pleasanton, CA                                     | Simplify                                                          | 1/19/2026        | ⏳          |
+| Sentra                     | SWE Intern                        | San Francisco, CA                                  | Simplify                                                          | 1/19/2026        | ⏳          |
+| PayPal                     | Backend SWE Intern                | San Jose, CA                                       | Jobright                                                          | 1/19/2026        | ⏳          |
