@@ -27,7 +27,7 @@ Throughout our discussion, help me visualize interfaces and flows by:
 ## MY EXISTING PRD:
 --- PRD START ---
 
-[ **<<< PASTE YOUR PRODUCT REQUIREMENTS DOCUMENT HERE >>>** ]
+[[PRD]]
 
 --- PRD END ---
 

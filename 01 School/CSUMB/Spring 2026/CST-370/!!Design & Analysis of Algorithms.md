@@ -7,6 +7,7 @@ Year/Semester:
   - Spring 2026
 TA: Jackie Luc, Samuel Jacobs
 TA Contact: jluc@csumb.edu , jaco1723@csumb.edu
+Class ID: "8900"
 ---
 ---
 ## Notes
