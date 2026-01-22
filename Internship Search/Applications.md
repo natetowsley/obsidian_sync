@@ -40,3 +40,6 @@
 | Veeva                      | Intern SWE                        | Pleasanton, CA                                     | Simplify                                                          | 1/19/2026        | ⏳          |
 | Sentra                     | SWE Intern                        | San Francisco, CA                                  | Simplify                                                          | 1/19/2026        | ⏳          |
 | PayPal                     | Backend SWE Intern                | San Jose, CA                                       | Jobright                                                          | 1/19/2026        | ⏳          |
+| UIPath                     | SWE Intern                        | Bellevue, WA                                       | Simplify                                                          | 1/21/2026        | ⏳          |
+| Moloco                     | SWE Intern                        | Menlo Park, CA                                     | LinkedIn                                                          | 1/21/2026        | ⏳          |
+| Hex Technologies           | Product Engineer Intern           | San Francisco, CA                                  | Simplify                                                          | 1/21/2026        | ⏳          |
