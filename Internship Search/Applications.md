@@ -8,7 +8,7 @@
 | Adobe                      | SWE Intern                        | CA                                                 | Simplify                                                          | 1/9/2026         | ⏳          |
 | Twitch                     | SWE Intern                        | CA                                                 | Simplify                                                          | 1/9/2026         | ⏳          |
 | TikTok                     | Backend SWE Intern                | CA                                                 | Jobright.ai                                                       | 1/9/2026         | ⏳          |
-| MongoDB                    | SWE Intern                        | Palo Alto, CA<br>San Francisco, CA,<br>Seattle, WA | Jobright.ai                                                       | 1/9/2026         | ⏳          |
+| MongoDB                    | SWE Intern                        | Palo Alto, CA<br>San Francisco, CA,<br>Seattle, WA | Jobright.ai                                                       | 1/9/2026         | ❌          |
 | Figma                      | SWE Intern                        | San Francisco, CA                                  | Simplify                                                          | 1/9/2026         | ⏳          |
 | CloudKitchens              | Engineering Intern                | Mountain View, CA                                  | Simplify                                                          | 1/9/2026         | ⏳          |
 | ZipRecruiter               | SWE Intern                        | Santa Monica, CA                                   | Simplify                                                          | 1/9/2026         | ⏳          |
@@ -43,3 +43,4 @@
 | UIPath                     | SWE Intern                        | Bellevue, WA                                       | Simplify                                                          | 1/21/2026        | ⏳          |
 | Moloco                     | SWE Intern                        | Menlo Park, CA                                     | LinkedIn                                                          | 1/21/2026        | ⏳          |
 | Hex Technologies           | Product Engineer Intern           | San Francisco, CA                                  | Simplify                                                          | 1/21/2026        | ⏳          |
+| Zipline                    | SWE Intern                        | San Francisco, CA                                  | LinkedIn                                                          | 1/24/2026        | ⏳          |
