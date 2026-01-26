@@ -44,3 +44,6 @@
 | Moloco                     | SWE Intern                        | Menlo Park, CA                                     | LinkedIn                                                          | 1/21/2026        | ⏳          |
 | Hex Technologies           | Product Engineer Intern           | San Francisco, CA                                  | Simplify                                                          | 1/21/2026        | ⏳          |
 | Zipline                    | SWE Intern                        | San Francisco, CA                                  | LinkedIn                                                          | 1/24/2026        | ⏳          |
+| ProductNow                 | Fullstack SWE Intern              | Palo Alto, CA                                      | LinkedIn                                                          | 1/26/2026        | ⏳          |
+| Okta                       | SWE Intern                        | San Francisco, CA                                  | LinkedIn                                                          | 1/26/2026        | ⏳          |
+| Uncountable                | Fullstack Intern                  | San Francisco, CA                                  | LinkedIn                                                          | 1/26/2026        | ⏳          |
