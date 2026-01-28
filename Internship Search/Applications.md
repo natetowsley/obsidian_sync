@@ -1,4 +1,4 @@
-
+ 
 | **Company Name**           | **Position**                      | **Location**                                       | **Method Found**                                                  | **Date Applied** | **Status** |
 | -------------------------- | --------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- | ---------------- | ---------- |
 | Patreon                    | SWE Internship                    | CA                                                 | [Github Repo](https://github.com/vanshb03/Summer2026-Internships) | 1/8/2026         | ⏳          |
