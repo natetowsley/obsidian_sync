@@ -9,6 +9,7 @@ Date Created: 2026-01-21
 ```table-of-contents
 ```
 ---
+>Section 1.2
 # A Closer Look at Network Structure
 - Network edge
 	- hosts: clients and servers
@@ -149,19 +150,27 @@ Date Created: 2026-01-21
 	- The more subscribers, the slower data will be uploaded and downloaded
 	- Other factors might affect speed: type of hardware, location, etc.
 - Bandwidth is your maximum possible speed
+- Speed is what your actually getting
+## Download Speed and Upload Speed
+- Download/Upload speed: How fast data can be transferred from the Internet/ your computer to you computer/ the Internet in a second
+- Why are upload speeds slower than download speeds?
+	- Most high-speed Internet connections, including cable modems and DSL, are *asymmetric*. They are designed to provide much better speed for downloading than uploading
+	- Since most users spend much more time downloading (which includes viewing web pages or multimedia files) than they do uploading.
+- Some providers start offering internet with relatively same download and upload speeds
 
 # Delay/ Latency
 - The time taken by the entire message/ package to reach its destination after the initial bit is sent out from the source
 	- Important metric to measure network performance
-- Latency = transmission delay + propagation delay + queuing delay + processing delay
+- Latency = **transmission delay** + **propagation delay** + **queuing delay** + **processing delay**
 ## Processing Delay and Queuing Delay
-- Processing delay is the time it takes routers to process the packet header
-- Queuing delay is the time a job waits in a queue until it can be executed
+- **Processing delay** is the time it takes routers to process the packet header
+- **Queuing delay** is the time a job waits in a queue until it can be executed
 ## Transmission Delay
 - Time needed to push all the packet bits on the transmission link
 - Mainly depends upon the bandwidth (R)
 ![[Pasted image 20260126144745.png]]
-
+- EX: transmitting 20 Mb at 5 Mbps takes 4 seconds
+$$20 (bits)/5(bits/sec) = 4(sec)$$
 ## Data Travels a Distance - Propagation Delay
 - Data must be moved over a physical distance
 - Time it takes for one bit to travel from one end of the link to the other

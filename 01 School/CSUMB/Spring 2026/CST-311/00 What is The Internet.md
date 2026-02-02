@@ -9,6 +9,7 @@ Date Created: 2026-01-21
 ```table-of-contents
 ```
 ---
+>Section 1.1
 # Network
 - A group or system of *interconnected* people or things (nodes)
 - **Structure**
