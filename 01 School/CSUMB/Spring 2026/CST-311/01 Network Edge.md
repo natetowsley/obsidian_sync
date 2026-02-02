@@ -12,7 +12,7 @@ Date Created: 2026-01-21
 >Section 1.2
 # A Closer Look at Network Structure
 - Network edge
-	- hosts: clients and servers
+	- **hosts:** clients and servers
 	- servers often in data centers
 - Access networks, physical media
 	- wire, wireless communication links
