@@ -837,8 +837,8 @@ Self-learners, certification prep students, and students from other institutions
 2. **Community Creation/Join** → User either:
    - Creates new community (gives it name, gets invite link) OR
    - Joins via friend's invite link → accepts community rules
-3. **Explore Interface** → User sees default #general text channel, sees General Voice channel
-4. **Start First Session:**
+1. **Explore Interface** → User sees default #general text channel, sees General Voice channel
+2. **Start First Session:**
    - User joins General Voice channel (just them, or 1-2 friends already there)
    - User expands Study Tools sidebar
    - User clicks "Start Pomodoro Timer"
