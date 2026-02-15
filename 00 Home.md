@@ -31,4 +31,8 @@ banner-display: cover
 
 > [!important] 📅 **[Calendar](https://calendar.google.com/calendar/u/0/r)**
 
+> adjList implementation
 ![[Main_hw3_1.java]]
+
+> 2d Array (wip) 
+![[Main.java]]
