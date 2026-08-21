@@ -29,6 +29,4 @@ banner-display: cover
 
 > [!important] 📩 **[Inbox](https://mail.google.com/mail/u/1/#inbox)**
 
-> [!important] 📅 **[Calendar](https://calendar.google.com/calendar/u/0/r)**
-
-![[Main 2.java]]
+> [!important] 📅 **[Calendar](https://calendar.google.com/calendar/u/0/r)** 
