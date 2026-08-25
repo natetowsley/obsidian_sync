@@ -1,7 +1,8 @@
 ---
 Course code: CST-363
 Prof:
-Contact:
+  - Anver Biblarz
+Contact: abiblarz@csumb.edu
 Year/Semester:
   - Fall 2026
 ---
