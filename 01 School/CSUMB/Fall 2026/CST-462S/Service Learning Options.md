@@ -12,7 +12,7 @@ Date Created: 2026-08-27
 | **Company**                        | **Opportunity**                 |
 | ---------------------------------- | ------------------------------- |
 | VettyFilms                         | Brokerage Application Developer |
-| Wonder Wood Ranch                  | Database Developerq             |
+| Wonder Wood Ranch                  | Database Developer              |
 | The Furnace Teen Center            | Website Maintenance             |
 | Financial and Health Ed Foundation | Website Management3             |
 
