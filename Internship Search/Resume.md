@@ -1,1 +1,0 @@
-![[Nathan_Towsley_Resume_2026.pdf]]
