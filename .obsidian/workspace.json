@@ -11,10 +11,14 @@
             "id": "382822f76228a416",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 School/CSUMB/Fall 2026/CST-363/03 Aggregation and Joins.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03 Aggregation and Joins"
             }
           }
         ]
@@ -79,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8ab28f538785fa02",
@@ -95,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Collections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Collections.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -178,9 +186,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "382822f76228a416",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Pasted image 20260915131141.png",
+    "Pasted image 20260915131139.png",
+    "Pasted image 20260915131118.png",
+    "Pasted image 20260915130740.png",
+    "Pasted image 20260915130710.png",
+    "Pasted image 20260915124407.png",
+    "Pasted image 20260915124228.png",
+    "Pasted image 20260915123824.png",
+    "01 School/CSUMB/Fall 2026/CST-363/02 Functions, Integrity.md",
+    "01 School/CSUMB/Fall 2026/CST-363/03 Aggregation and Joins.md",
+    "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Collections.md",
+    "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Logic and Conditionals.md",
+    "01 School/Reedley College/Courses/Fall 2024/CSCI-58/!!Programming in Python.md"
+  ]
 }
