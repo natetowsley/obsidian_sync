@@ -171,7 +171,7 @@ EXCEPT
 - Shorthand when joining identically named columns
 
 # Basic Query Structure
-- A qeury over multiple tables has the form
+- A query over multiple tables has the form
 ```sql
 SELECT A1, A2, ..., An
 FROM R1
