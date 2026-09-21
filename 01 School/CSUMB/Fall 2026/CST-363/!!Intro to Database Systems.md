@@ -7,6 +7,9 @@ Year/Semester:
   - Fall 2026
 ---
 ---
+# Assignments
+[[hw2.sql]]
+---
 ## Notes
 ```dataview
 LIST
