@@ -171,6 +171,17 @@ Date Created: 2026-10-13
 	- bar = one
 	- crow's foot = many
 
+# Participation Constraints
+> Participation asks: Must every entity in this entity set participate in this relationship?
+
+- **Total** - Every entity must participate
+- **Partial** - Participation is optional
+![[Pasted image 20261014123506.png]]
+- The **minimum marker** at the instructor end changes from a **circle** to a **bar**
+	- Optional advisor -> required advisor
+- Every student must have **exactly one** advisor
+> This is total participation on the student side
+
 # Keys Formalized
 - We need to distinguish entities and relationships
 	- A **superkey** is any set of attributes that uniquely identifies an entity

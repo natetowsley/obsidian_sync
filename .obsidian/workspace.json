@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 School/CSUMB/Fall 2026/CST-363/07 From ER Model to PostgreSQL.md",
+                "file": "01 School/CSUMB/Fall 2026/CST-363/08 Database Design - Normal Forms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07 From ER Model to PostgreSQL"
+              "title": "08 Database Design - Normal Forms"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8ab28f538785fa02",
@@ -190,9 +191,12 @@
   },
   "active": "382822f76228a416",
   "lastOpenFiles": [
-    "zzzarchive/Pasted image 20261013123917.png",
-    "01 School/CSUMB/Fall 2026/CST-363/06 Conceptual Modeling & ER Diagrams.md",
+    "zzzarchive/Pasted image 20261020104504.png",
     "01 School/CSUMB/Fall 2026/CST-363/07 From ER Model to PostgreSQL.md",
+    "01 School/CSUMB/Fall 2026/CST-363/08 Database Design - Normal Forms.md",
+    "01 School/CSUMB/Fall 2026/CST-363/06 Conceptual Modeling & ER Diagrams.md",
+    "zzzarchive/Pasted image 20261014123506.png",
+    "zzzarchive/Pasted image 20261013123917.png",
     "zzzarchive/Pasted image 20261013122346.png",
     "zzzarchive/Pasted image 20261013122245.png",
     "zzzarchive/Pasted image 20261013122130.png",
@@ -201,10 +205,8 @@
     "zzzarchive/Pasted image 20261013121444.png",
     "zzzarchive/Pasted image 20261013120759.png",
     "zzzarchive/Pasted image 20261013111458.png",
-    "zzzarchive/Pasted image 20261013110134.png",
     "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Collections.md",
     "01 School/CSUMB/Fall 2026/CST-363/05 CTEs, Views.md",
-    "Pasted image 20260915124228.png",
     "01 School/CSUMB/Fall 2026/CST-363/04 Subqueries.md",
     "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Loops.md",
     "01 School/CSUMB/Fall 2026/CST-363/!!Intro to Database Systems.md",
