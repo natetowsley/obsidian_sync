@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 School/CSUMB/Fall 2026/CST-363/08 Database Design - Normal Forms.md",
+                "file": "01 School/CSUMB/Fall 2026/CST-363/09 Transactions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 Database Design - Normal Forms"
+              "title": "09 Transactions"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8ab28f538785fa02",
@@ -191,20 +190,21 @@
   },
   "active": "382822f76228a416",
   "lastOpenFiles": [
-    "zzzarchive/Pasted image 20261020104504.png",
-    "01 School/CSUMB/Fall 2026/CST-363/07 From ER Model to PostgreSQL.md",
+    "zzzarchive/Pasted image 20261027154321.png",
+    "zzzarchive/Pasted image 20261027154300.png",
+    "zzzarchive/Pasted image 20261027153507.png",
+    "zzzarchive/Pasted image 20261027125129.png",
+    "zzzarchive/Pasted image 20261027124322.png",
+    "zzzarchive/Pasted image 20261027124117.png",
+    "zzzarchive/Pasted image 20261027121920.png",
+    "zzzarchive/Pasted image 20261027121806.png",
+    "zzzarchive/Pasted image 20261027121645.png",
+    "zzzarchive/Pasted image 20261027121441.png",
+    "zzzarchive/Pasted image 20261027121224.png",
     "01 School/CSUMB/Fall 2026/CST-363/08 Database Design - Normal Forms.md",
+    "01 School/CSUMB/Fall 2026/CST-363/09 Transactions.md",
+    "01 School/CSUMB/Fall 2026/CST-363/07 From ER Model to PostgreSQL.md",
     "01 School/CSUMB/Fall 2026/CST-363/06 Conceptual Modeling & ER Diagrams.md",
-    "zzzarchive/Pasted image 20261014123506.png",
-    "zzzarchive/Pasted image 20261013123917.png",
-    "zzzarchive/Pasted image 20261013122346.png",
-    "zzzarchive/Pasted image 20261013122245.png",
-    "zzzarchive/Pasted image 20261013122130.png",
-    "zzzarchive/Pasted image 20261013122037.png",
-    "zzzarchive/Pasted image 20261013121943.png",
-    "zzzarchive/Pasted image 20261013121444.png",
-    "zzzarchive/Pasted image 20261013120759.png",
-    "zzzarchive/Pasted image 20261013111458.png",
     "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Collections.md",
     "01 School/CSUMB/Fall 2026/CST-363/05 CTEs, Views.md",
     "01 School/CSUMB/Fall 2026/CST-363/04 Subqueries.md",
