@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 School/CSUMB/Fall 2026/CST-363/09 Transactions.md",
+                "file": "01 School/CSUMB/Fall 2026/CST-363/10 Database Indexing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09 Transactions"
+              "title": "10 Database Indexing"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8ab28f538785fa02",
@@ -190,19 +191,20 @@
   },
   "active": "382822f76228a416",
   "lastOpenFiles": [
-    "zzzarchive/Pasted image 20261027154321.png",
-    "zzzarchive/Pasted image 20261027154300.png",
-    "zzzarchive/Pasted image 20261027153507.png",
-    "zzzarchive/Pasted image 20261027125129.png",
-    "zzzarchive/Pasted image 20261027124322.png",
-    "zzzarchive/Pasted image 20261027124117.png",
-    "zzzarchive/Pasted image 20261027121920.png",
-    "zzzarchive/Pasted image 20261027121806.png",
-    "zzzarchive/Pasted image 20261027121645.png",
-    "zzzarchive/Pasted image 20261027121441.png",
-    "zzzarchive/Pasted image 20261027121224.png",
-    "01 School/CSUMB/Fall 2026/CST-363/08 Database Design - Normal Forms.md",
+    "zzzarchive/Pasted image 20261103122354.png",
+    "zzzarchive/Pasted image 20261103121834.png",
+    "zzzarchive/Pasted image 20261103121540.png",
+    "zzzarchive/Pasted image 20261103121309.png",
+    "zzzarchive/Pasted image 20261103120757.png",
+    "zzzarchive/Pasted image 20261103120201.png",
+    "zzzarchive/Pasted image 20261103115745.png",
+    "zzzarchive/Pasted image 20261103113525.png",
+    "zzzarchive/Pasted image 20261103113442.png",
+    "zzzarchive/Pasted image 20261103113247.png",
     "01 School/CSUMB/Fall 2026/CST-363/09 Transactions.md",
+    "01 School/CSUMB/Fall 2026/CST-363/10 Database Indexing.md",
+    "zzzarchive/Pasted image 20261027154321.png",
+    "01 School/CSUMB/Fall 2026/CST-363/08 Database Design - Normal Forms.md",
     "01 School/CSUMB/Fall 2026/CST-363/07 From ER Model to PostgreSQL.md",
     "01 School/CSUMB/Fall 2026/CST-363/06 Conceptual Modeling & ER Diagrams.md",
     "01 School/Reedley College/Courses/Fall 2024/CSCI-58/Collections.md",
