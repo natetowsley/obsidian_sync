@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 School/CSUMB/Fall 2026/CST-363/10 Database Indexing.md",
+                "file": "01 School/CSUMB/Fall 2026/CST-363/11 Distributed Databases & Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Database Indexing"
+              "title": "11 Distributed Databases & Architecture"
             }
           }
         ]
@@ -191,19 +191,20 @@
   },
   "active": "382822f76228a416",
   "lastOpenFiles": [
+    "zzzarchive/Pasted image 20261110121824.png",
+    "zzzarchive/Pasted image 20261110111421.png",
+    "zzzarchive/Pasted image 20261110110519.png",
+    "zzzarchive/Pasted image 20261110110341.png",
+    "zzzarchive/Pasted image 20261110104951.png",
+    "zzzarchive/Pasted image 20261110104843.png",
+    "zzzarchive/Pasted image 20261110104814.png",
+    "zzzarchive/Pasted image 20261110103631.png",
+    "zzzarchive/Pasted image 20261110103523.png",
+    "01 School/CSUMB/Fall 2026/CST-363/10 Database Indexing.md",
+    "01 School/CSUMB/Fall 2026/CST-363/11 Distributed Databases & Architecture.md",
     "zzzarchive/Pasted image 20261103122354.png",
     "zzzarchive/Pasted image 20261103121834.png",
-    "zzzarchive/Pasted image 20261103121540.png",
-    "zzzarchive/Pasted image 20261103121309.png",
-    "zzzarchive/Pasted image 20261103120757.png",
-    "zzzarchive/Pasted image 20261103120201.png",
-    "zzzarchive/Pasted image 20261103115745.png",
-    "zzzarchive/Pasted image 20261103113525.png",
-    "zzzarchive/Pasted image 20261103113442.png",
-    "zzzarchive/Pasted image 20261103113247.png",
     "01 School/CSUMB/Fall 2026/CST-363/09 Transactions.md",
-    "01 School/CSUMB/Fall 2026/CST-363/10 Database Indexing.md",
-    "zzzarchive/Pasted image 20261027154321.png",
     "01 School/CSUMB/Fall 2026/CST-363/08 Database Design - Normal Forms.md",
     "01 School/CSUMB/Fall 2026/CST-363/07 From ER Model to PostgreSQL.md",
     "01 School/CSUMB/Fall 2026/CST-363/06 Conceptual Modeling & ER Diagrams.md",
